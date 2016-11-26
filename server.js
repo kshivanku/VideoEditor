@@ -1,6 +1,6 @@
-var title, thumbnail, subtitles;
+var title, thumbnail;
 var srt_converted = false;
-var video_number = 1;
+var video_number = 0;
 
 var express = require("express");
 var app = express();
@@ -43,10 +43,9 @@ function download_video(request, response) {
     youtubedl.getSubs(url, options, function(err, files) {
         if (err) throw err;
         console.log('subtitle files downloaded:', files);
-        subtitles = files[0];
 
         ffmpeg()
-            .input('public/videos/' + subtitles)
+            .input('public/videos/' + files[0])
             .output('public/videos/' + video_number + '.srt')
             .on('end', function() {
                 console.log('Finished processing');
@@ -56,10 +55,9 @@ function download_video(request, response) {
 
     });
     var intvl = setInterval(function(){
-      if(title && thumbnail && subtitles && srt_converted) {
+      if(title && thumbnail && srt_converted) {
         var reply = {
             video_title: title,
-            subtitle: subtitles,
             thumbnail: thumbnail,
             video_number: video_number
         }

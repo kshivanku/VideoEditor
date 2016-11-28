@@ -53,6 +53,10 @@ GRID
 TYPOGRAPHY
 -----------------------------*/
 
+html {
+  overflow: hidden;
+}
+
 body {
   font: 300 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -66,7 +70,7 @@ body {
 PLAYLIST
 -----------------------------*/
 
-#playlist {
+#index {
   height: 100vh;
   overflow: scroll;
   background-color: #262C31;
@@ -124,13 +128,21 @@ video {
 #video_name {
   font-size: 24px;
   line-height: 36px;
-  padding: 25px 15px;
+  padding-top: 25px;
 }
 
 #subtitle {
-  padding: 0 15px 20px 15px;
+  padding: 25px 0;
   font-size: 13px;
   line-height: 18px;
+}
+
+#subtitle p {
+  cursor: pointer;
+  line-height: 2em;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-size: 13px;
 }
 
 

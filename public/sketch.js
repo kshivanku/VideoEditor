@@ -1,83 +1,192 @@
-var query_field, submit, query, error;
+var query_field, query, error;
 var valid_url = /.*www\.youtube\.com\/watch\?v=\w+.*/;
-var video_list = [];
+var new_entry;
+var new_video;
 var videos = [];
-var i = 0;
 
-function setup(){
-  noCanvas();
-  query_field = select("#url_input");
-  error = select(".error");
+function setup() {
+    noCanvas();
+    query_field = select("#url_input");
+    error = select(".error");
 }
 
-document.getElementById('url_input').onkeydown = function(e){
-   if(e.keyCode == 13){
-     query_submitted();
-   }
-   if(e.keyCode == 8){
-     error.html(" ");
-   }
+document.getElementById('url_input').onkeydown = function(e) {
+    if (e.keyCode == 13) {
+        query_submitted();
+    }
+    if (e.keyCode == 8) {
+        error.html(" ");
+    }
 };
 
-function query_submitted(){
-  query = query_field.value();
+function query_submitted() {
+    query = query_field.value();
 
-  if (valid_url.test(query)){
-    error.html(" ");
-    document.getElementById('url_input_form').reset();
-    var id_start = query.indexOf("=");
-    var id_end = query.length;
-    var id = query.substring(id_start+1 , id_start+12);
-    i = video_list.length;
-    video_list[i] = createElement("li","loading...");
-    video_list[i].parent("#loaded_videos");
-    video_list[i].style("background-image", "url(loading2.svg)");
+    if (valid_url.test(query)) {
+        //URL IS FOUND TO BE VALID
 
-    loadJSON("/download/"+id , gotData);
-  }
-  else {
-    error.html("Not a valid youtube link");
-  }
-}
+        //NO ERRORS, CLEAR TEXT FIELD
+        error.html(" ");
+        document.getElementById('url_input_form').reset();
 
-function gotData(data){
-  var new_video = new Video();
-  new_video.title = data.video_title;
-  new_video.thumbnail = data.thumbnail;
-  new_video.subtitle_file = "videos/" + data.video_number + ".srt";
-  new_video.video_file = "videos/" + data.video_number + ".mp4";
-  videos.push(new_video);
-  video_list[i].html(new_video.title);
-  video_list[i].style("background-image", "url(" + new_video.thumbnail + ")");
-  video_list[i].mousePressed(show_video);
-  console.log(video_list);
-  console.log(videos);
-}
+        //CREATE A NEW ENTRY IN THE INDEX ELEMENT, SHOW LOADING TILL DATA COMES
+        new_entry = createElement("li", "loading...");
+        new_entry.parent("#loaded_videos");
+        new_entry.style("background-image", "url(loading2.svg)");
 
-function Video(){
-  this.title = "";
-  this.thumbnail = "";
-  this.subtitle_file = "";
-  this.video_file = "";
-}
-
-function show_video(){
-  for(i = 0 ; i < videos.length ; i++){
-    if(videos[i].title == this.elt.innerHTML){
-      var player = document.getElementById('videoPlayer');
-      var mp4Vid = document.getElementById('mp4Source');
-      player.pause();
-      mp4Vid.src = videos[i].video_file;
-      player.load();
-      player.play();
-      var heading_tag = select('#video_name');
-      heading_tag.html(videos[i].title);
-      loadStrings(videos[i].subtitle_file, gotSubs);
+        //TALK TO SERVER AND DOWNLOAD VIDEO FILES
+        var id_start = query.indexOf("=");
+        var id = query.substring(id_start + 1, id_start + 12);
+        loadJSON("/download/" + id, gotData);
+    } else {
+        //URL IS FOUND TO BE INVALID, THROW ERROR
+        error.html("Not a valid youtube link");
     }
-  }
 }
 
-function gotSubs(data){
-  var subtitle_tag = select('#subtitle');
-  subtitle_tag.html(data);
+function gotData(data) {
+    //UPDATE THE VIDEOS ARRAY WITH INFORMATION FROM NEW VIDEO
+    new_video = new Video();
+    new_video.title = data.video_title;
+    new_video.thumbnail = data.thumbnail;
+    new_video.subtitle_file = "videos/" + data.video_number + ".srt";
+    new_video.video_file = "videos/" + data.video_number + ".mp4";
+
+    //LOAD SUBTITLES AND CUT CLIPS
+    loadStrings(new_video.subtitle_file, gotSubs);
+
+    //PUSH THE NEW VIDEO IN THE VIDEO ARRAY
+    videos.push(new_video);
+
+    //UPDATE THE INFORMATION IN INDEX ELEMENT
+    new_entry.html(new_video.title);
+    new_entry.style("background-image", "url(" + new_video.thumbnail + ")");
+    new_entry.mousePressed(show_video);
+
 }
+
+function Video() {
+    this.title = "";
+    this.thumbnail = "";
+    this.subtitle_file = "";
+    this.video_file = "";
+    this.clips = [];
+}
+
+function show_video() {
+    //FIND THE CORRESPONDING VIDEO IN VIDEO ARRAY BY MATCHING TITLES
+    for (i = 0; i < videos.length; i++) {
+        if (videos[i].title == this.elt.innerHTML) {
+            //LOAD THE VIDEO IN VIDEO TAG
+            var player = document.getElementById('videoPlayer');
+            var mp4Vid = document.getElementById('mp4Source');
+            player.pause();
+            mp4Vid.src = videos[i].video_file;
+            player.load();
+            player.play();
+
+            //DISPLAY HEADING
+            var heading_tag = select('#video_name');
+            heading_tag.html(videos[i].title);
+
+            //SHOW SUBTITLES
+            displaysubs(videos[i]);
+        }
+    }
+}
+
+function gotSubs(data) {
+
+    //HAVE TO SAVE THIS BECAUSE END TIME OF PREV CLIP HAS TO BE EDITIED TO START TIME OF THE NEXT
+    var prevclip;
+
+    //IN EACH ROUND OF FOR LOOP, START TIME, END TIME AND FULL CONTENT OF A CLIP IS SAVED IN THE CLIP OBJECT OF THE VIDEO
+    for (i = 1; i < data.length; i++) {
+        var newclip = new Clip();
+        var starttime = "";
+        var endtime = "";
+
+        //VALUES ARE HARD CODED, MIGHT NOT WORK FOR SOME SRT's
+        for (j = 0; j < data[i].length; j++) {
+            if (j < 11) {
+                starttime += data[i][j];
+            } else if (j > 16 && j < 29) {
+                endtime += data[i][j];
+            }
+        }
+        newclip.starttime = starttime;
+        newclip.endtime = endtime;
+
+        //HAVE TO DO THIS BECAUSE OF THE NATURE OF TIMING MENTIONED IN SRT FILES
+        if (prevclip) {
+            prevclip.endtime = newclip.starttime;
+        }
+
+        //COPY THE CONTENT, CAN BE IN MULTIPLE LINES
+        i += 1;
+        while (notanumber(data[i]) && i < data.length) {
+            for (j = 0; j < data[i].length; j++) {
+                newclip.clipcontent += data[i][j];
+            }
+            i += 1;
+        }
+
+        function notanumber(arr) {
+            if (arr) {
+                for (x = 0; x < arr.length; x++) {
+                    if (!(Number(arr[x] + 1))) {
+                        return true;
+                    }
+                }
+                return false;
+            } else {
+                return false;
+            }
+        }
+
+        //PUSH THE NEW CLIP IN THE CLIPS ARRAY OF NEW_VIDEO OBJECT
+        new_video.clips.push(newclip);
+        prevclip = newclip;
+    }
+}
+
+function displaysubs(videoObj) {
+    var clipindex;
+
+    //CLEAR ANY PREVIOUSLY LOADED SUBTITLES
+    $('#subtitle').empty();
+
+    //DISPLAY SUBTITLES FOR THE SELECTED FILE
+    for (i = 0; i < videoObj.clips.length; i++) {
+        clipindex = createP("");
+        clipindex.parent("#subtitle");
+        clipindex.html(videoObj.clips[i].clipcontent);
+        clipindex.mousePressed(saveclip);
+    }
+}
+
+function Clip() {
+    this.starttime = "";
+    this.endtime = "";
+    this.clipcontent = "";
+}
+
+function saveclip() {
+    for (i = 0; i < videos.length; i++) {
+        for (j = 0; j < videos[i].clips.length; j++) {
+            if (videos[i].clips[j].clipcontent == this.elt.innerHTML) {
+                console.log(videos[i].clips[j]);
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+/**/

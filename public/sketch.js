@@ -3,11 +3,15 @@ var valid_url = /.*www\.youtube\.com\/watch\?v=\w+.*/;
 var new_entry;
 var new_video;
 var videos = [];
+var selected_clips = [];
+var quickview;
 
 function setup() {
     noCanvas();
     query_field = select("#url_input");
     error = select(".error");
+    quickview = select("#quickview");
+    quickview.mousePressed(generatevideo);
 }
 
 document.getElementById('url_input').onkeydown = function(e) {
@@ -53,7 +57,7 @@ function gotData(data) {
     new_video.video_file = "videos/" + data.video_number + ".mp4";
 
     //LOAD SUBTITLES AND CUT CLIPS
-    loadStrings(new_video.subtitle_file, gotSubs);
+    loadStrings(new_video.subtitle_file, cutClips);
 
     //PUSH THE NEW VIDEO IN THE VIDEO ARRAY
     videos.push(new_video);
@@ -95,7 +99,7 @@ function show_video() {
     }
 }
 
-function gotSubs(data) {
+function cutClips(data) {
 
     //HAVE TO SAVE THIS BECAUSE END TIME OF PREV CLIP HAS TO BE EDITIED TO START TIME OF THE NEXT
     var prevclip;
@@ -109,7 +113,12 @@ function gotSubs(data) {
         //VALUES ARE HARD CODED, MIGHT NOT WORK FOR SOME SRT's
         for (j = 0; j < data[i].length; j++) {
             if (j < 11) {
+              if(j  == 8){
+                starttime += ".";
+              }
+              else{
                 starttime += data[i][j];
+              }
             } else if (j > 16 && j < 29) {
                 endtime += data[i][j];
             }
@@ -148,7 +157,30 @@ function gotSubs(data) {
         new_video.clips.push(newclip);
         prevclip = newclip;
     }
+
+    //SAVING THE VIDEO SOURCE WITH THE CLIP OBJECT AND CALCULATING DURATION
+    for (i = 0; i < new_video.clips.length; i++) {
+        new_video.clips[i].sourcevideo = new_video.video_file;
+        new_video.clips[i].duration = calculateduration(new_video.clips[i].starttime, new_video.clips[i].endtime);
+    }
 }
+
+//UNSCALABLE FUNCTION FOR CALCULATING DURATION
+function calculateduration(starttime, endtime) {
+    var starthour = Number(starttime[0] + starttime[1]) * 60 * 60;
+    var startmins = Number(starttime[3] + starttime[4]) * 60;
+    var startsecs = Number(starttime[6] + starttime[7] + "." + starttime[9] + starttime[10]);
+    var totalstart = starthour + startmins + startsecs;
+
+    var endhour = Number(endtime[0] + endtime[1]) * 60 * 60;
+    var endmins = Number(endtime[3] + endtime[4]) * 60;
+    var endsecs = Number(endtime[6] + endtime[7] + "." + endtime[9] + endtime[10]);
+    var totalend = endhour + endmins + endsecs;
+
+    var duration = totalend - totalstart;
+    return String(duration);
+}
+
 
 function displaysubs(videoObj) {
     var clipindex;
@@ -168,18 +200,78 @@ function displaysubs(videoObj) {
 function Clip() {
     this.starttime = "";
     this.endtime = "";
+    this.duration = "";
     this.clipcontent = "";
+    this.sourcevideo = "";
 }
 
 function saveclip() {
     for (i = 0; i < videos.length; i++) {
         for (j = 0; j < videos[i].clips.length; j++) {
+            //IDENTIFYING THE RIGHT CLIP BY MATCHING CONTENT, WILL NOT WORK FOR WORDS
             if (videos[i].clips[j].clipcontent == this.elt.innerHTML) {
+                selected_clips.push(videos[i].clips[j]);
                 console.log(videos[i].clips[j]);
+                this.style("color", "#FF8500");
+                display_selectedclips();
+                return 1;
             }
         }
     }
 }
+
+function display_selectedclips() {
+    $("#sortable").empty();
+    for (i = 0; i < selected_clips.length; i++) {
+        var clip = createElement("li", "");
+        clip.parent("#sortable");
+        clip.html(selected_clips[i].clipcontent);
+    }
+}
+
+$(function() {
+    $("#sortable").sortable();
+    $("#sortable").disableSelection();
+});
+
+function generatevideo() {
+
+    //BEFORE WE CAN GENERATE THE VIDEO, WE NEED TO REARRANGE OUR SELECTED CLIPS ARRAY ACCORDING TO THE CHANGES USER MAY HAVE MADE
+    var new_selected_clips = [];
+    var liItem = $('#sortable li');
+    for (i = 0; i < liItem.length; i++) {
+        for (j = 0; j < selected_clips.length; j++) {
+            //AGAIN WE ARE MATCHING THE CONTENT, NOT SCALABLE
+            if (selected_clips[j].clipcontent == liItem[i].innerHTML) {
+                new_selected_clips.push(selected_clips[j]);
+                j = selected_clips.length - 1;
+            }
+        }
+    }
+    selected_clips = new_selected_clips;
+    console.log(selected_clips);
+    sendjson(selected_clips);
+}
+
+function sendjson(selected_clips) {
+    jQuery.ajax({
+        type: 'POST',
+        url: '/mix',
+        data: {
+            "selected_clips": selected_clips
+        }
+    });
+}
+
+// function removeclip() {
+//   for (i = 0; i < selected_clips.length; i++) {
+//     if(selected_clips[i].clipcontent == this.elt.innerHTML){
+//       selected_clips.splice(i,1);
+//       display_selectedclips();
+//       return 1;
+//     }
+//   }
+// }
 
 
 

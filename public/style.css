@@ -145,5 +145,45 @@ video {
   font-size: 13px;
 }
 
+#subtitle p:active {
+  color: #FF8500;
+
+}
+
+/*-----------------------------
+SELECTED CLIPS
+-----------------------------*/
+#selection_area {
+  overflow: scroll;
+  height: 100vh;
+  padding-top: 15px;
+}
+
+#selection_area h1{
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+#sortable li {
+  padding: 15px 0;
+  font-size: 13px;
+  line-height: 16px;
+  cursor: move;
+}
+
+#quickview {
+  margin-top: 15px;
+  padding: 10px;
+  cursor: pointer;
+  border: 0;
+  background-color: #7CBD9D;
+  color: #FFF;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+
+
+
 
 /**/

@@ -1,6 +1,7 @@
 var title, thumbnail;
 var srt_converted = false;
 var video_number = 0;
+var operation_number = 0;
 
 var express = require("express");
 var app = express();
@@ -61,6 +62,8 @@ function download_video(request, response) {
             .run();
 
     });
+
+    //It tries to send the response every second, so as soon as we have the title, thumbnails and srt convertion done, we send a response
     var intvl = setInterval(function() {
         if (title && thumbnail && srt_converted) {
             var reply = {
@@ -79,7 +82,7 @@ function download_video(request, response) {
 app.post("/mix", makemix);
 
 function makemix(request, response) {
-
+    operation_number +=1;
     var videoNames = [];
     for(i = 0 ; i < request.body.selected_clips.length ; i++){
       ffmpeg()
@@ -89,24 +92,25 @@ function makemix(request, response) {
         .output("public/videos/clips/output" + i + ".mp4")
         .on('end', function() {
           console.log('Finished processing');
-          mergeclips(videoNames);
+          mergeclips(videoNames, response, operation_number);
         })
         .run();
         videoNames.push("public/videos/clips/output" + i + ".mp4");
     }
  }
 
- function mergeclips(videoNames){
+ function mergeclips(videoNames, response, operation_number){
    var mergedVideo = ffmpeg();
    videoNames.forEach(function(videoName){
      mergedVideo = mergedVideo.addInput(videoName);
    });
-   mergedVideo.mergeToFile('public/videos/finalvideo/final.mp4')
+   mergedVideo.mergeToFile('public/videos/finalvideo/final' + operation_number + '.mp4')
    .on('error', function(err) {
        console.log('Error ' + err.message);
    })
    .on('end', function() {
        console.log('Finished!');
+       response.send(String(operation_number));
    });
 
  }

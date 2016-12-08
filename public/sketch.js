@@ -80,6 +80,7 @@ function Video() {
 function show_video() {
     //FIND THE CORRESPONDING VIDEO IN VIDEO ARRAY BY MATCHING TITLES
     for (i = 0; i < videos.length; i++) {
+        //SO WE CHECK THE TITLE OF VIDEO THAT WAS CLICKED ON WITH ALL THE VIDEO TITLES
         if (videos[i].title == this.elt.innerHTML) {
             //LOAD THE VIDEO IN VIDEO TAG
             var player = document.getElementById('videoPlayer');
@@ -92,6 +93,10 @@ function show_video() {
             //DISPLAY HEADING
             var heading_tag = select('#video_name');
             heading_tag.html(videos[i].title);
+
+            //DISPLAY SUBTITLES HEADING
+            var subtitle_heading = select("#subtitle_heading");
+            subtitle_heading.html("Subtitles:");
 
             //SHOW SUBTITLES
             displaysubs(videos[i]);
@@ -113,12 +118,11 @@ function cutClips(data) {
         //VALUES ARE HARD CODED, MIGHT NOT WORK FOR SOME SRT's
         for (j = 0; j < data[i].length; j++) {
             if (j < 11) {
-              if(j  == 8){
-                starttime += ".";
-              }
-              else{
-                starttime += data[i][j];
-              }
+                if (j == 8) {
+                    starttime += ".";
+                } else {
+                    starttime += data[i][j];
+                }
             } else if (j > 16 && j < 29) {
                 endtime += data[i][j];
             }
@@ -167,18 +171,26 @@ function cutClips(data) {
 
 //UNSCALABLE FUNCTION FOR CALCULATING DURATION
 function calculateduration(starttime, endtime) {
-    var starthour = Number(starttime[0] + starttime[1]) * 60 * 60;
-    var startmins = Number(starttime[3] + starttime[4]) * 60;
-    var startsecs = Number(starttime[6] + starttime[7] + "." + starttime[9] + starttime[10]);
-    var totalstart = starthour + startmins + startsecs;
-
-    var endhour = Number(endtime[0] + endtime[1]) * 60 * 60;
-    var endmins = Number(endtime[3] + endtime[4]) * 60;
-    var endsecs = Number(endtime[6] + endtime[7] + "." + endtime[9] + endtime[10]);
-    var totalend = endhour + endmins + endsecs;
-
+    var totalstart = calculateStartTime(starttime);
+    var totalend = calculateEndTime(endtime);
     var duration = totalend - totalstart;
     return String(duration);
+}
+
+function calculateStartTime(starttime){
+  var starthour = Number(starttime[0] + starttime[1]) * 60 * 60;
+  var startmins = Number(starttime[3] + starttime[4]) * 60;
+  var startsecs = Number(starttime[6] + starttime[7] + "." + starttime[9] + starttime[10]);
+  var totalstart = starthour + startmins + startsecs;
+  return totalstart;
+}
+
+function calculateEndTime(endtime){
+  var endhour = Number(endtime[0] + endtime[1]) * 60 * 60;
+  var endmins = Number(endtime[3] + endtime[4]) * 60;
+  var endsecs = Number(endtime[6] + endtime[7] + "." + endtime[9] + endtime[10]);
+  var totalend = endhour + endmins + endsecs;
+  return totalend;
 }
 
 
@@ -239,18 +251,57 @@ function generatevideo() {
     //BEFORE WE CAN GENERATE THE VIDEO, WE NEED TO REARRANGE OUR SELECTED CLIPS ARRAY ACCORDING TO THE CHANGES USER MAY HAVE MADE
     var new_selected_clips = [];
     var liItem = $('#sortable li');
+    // if (liItem.length) {
+    //     loadanimation();
+    // }
     for (i = 0; i < liItem.length; i++) {
         for (j = 0; j < selected_clips.length; j++) {
             //AGAIN WE ARE MATCHING THE CONTENT, NOT SCALABLE
             if (selected_clips[j].clipcontent == liItem[i].innerHTML) {
                 new_selected_clips.push(selected_clips[j]);
-                j = selected_clips.length - 1;
+                j = selected_clips.length - 1; //JUST TO END THE LOOP
             }
         }
     }
     selected_clips = new_selected_clips;
     console.log(selected_clips);
-    sendjson(selected_clips);
+
+    //LOAD PREVIEW WITH POPCORN
+    var clipsforpopcorn = [];
+    for( i = 0 ; i < selected_clips.length ; i++ ){
+      var clipentry = new Clippopcorn();
+      clipentry.src = selected_clips[i].sourcevideo;
+      //POPCORN JS DOES NOT ACCEPT DECIMAL VALUES
+      clipentry.in = floor(calculateStartTime(selected_clips[i].starttime) + 1);
+      clipentry.out = floor(calculateEndTime(selected_clips[i].endtime) + 1);
+      clipsforpopcorn.push(clipentry);
+    }
+    //console.log(clipsforpopcorn);
+    createPopcornPreview(clipsforpopcorn);
+
+    // sendjson(selected_clips);
+}
+
+function Clippopcorn() {
+  this.src = "";
+  this.in = 0;
+  this.out = 0;
+}
+
+function createPopcornPreview(clipsforpopcorn){
+  console.log(clipsforpopcorn);
+  var sequence = Popcorn.sequence("mixedvideoplayer", clipsforpopcorn);
+  sequence.play();
+}
+
+function loadanimation() {
+    var player = document.getElementById('mixedvideo');
+    var mp4Vid = document.getElementById('mixsource');
+    player.pause();
+    mp4Vid.src = 'loading.mp4';
+    player.removeAttribute("controls");
+    player.load();
+    player.play();
 }
 
 function sendjson(selected_clips) {
@@ -259,20 +310,22 @@ function sendjson(selected_clips) {
         url: '/mix',
         data: {
             "selected_clips": selected_clips
+        },
+        success: function(data) {
+            loadvideo(data);
         }
     });
 }
 
-// function removeclip() {
-//   for (i = 0; i < selected_clips.length; i++) {
-//     if(selected_clips[i].clipcontent == this.elt.innerHTML){
-//       selected_clips.splice(i,1);
-//       display_selectedclips();
-//       return 1;
-//     }
-//   }
-// }
-
+function loadvideo(data) {
+    var player = document.getElementById('mixedvideo');
+    var mp4Vid = document.getElementById('mixsource');
+    player.pause();
+    mp4Vid.src = 'videos/finalvideo/final' + data + '.mp4';
+    player.setAttribute("controls", "controls");
+    player.load();
+    player.play();
+}
 
 
 

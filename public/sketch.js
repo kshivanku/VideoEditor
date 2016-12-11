@@ -277,6 +277,7 @@ function generatevideo() {
       clipsforpopcorn.push(clipentry);
     }
     //console.log(clipsforpopcorn);
+    $('#mixedvideoplayer video').remove();
     createPopcornPreview(clipsforpopcorn);
 
     // sendjson(selected_clips);
@@ -291,6 +292,7 @@ function Clippopcorn() {
 function createPopcornPreview(clipsforpopcorn){
   console.log(clipsforpopcorn);
   var sequence = Popcorn.sequence("mixedvideoplayer", clipsforpopcorn);
+  // console.log(sequence);
   sequence.play();
 }
 

@@ -57,6 +57,7 @@ function download_video(request, response) {
             .on('end', function() {
                 console.log('Finished processing');
                 srt_converted = true;
+                getwordlevelsrt('public/videos/' + video_number + '.srt');
             })
             .on('progress', function(progress) {
               console.log('Processing: ' + progress.percent + '% done');
@@ -81,8 +82,22 @@ function download_video(request, response) {
     }, 1000);
 }
 
-app.post("/mix", makemix);
+//DIRECTLY USING NPM IS NOT WORKING, NOT GETTING WORD LEVEL TIMING AND SRT TO JSON IS ALSO NOT WORKING PROPERLY, SO WILL MAKE IT LOCALLY
+function getwordlevelsrt(srtfile){
+  console.log("Came to get word level subs");
+  var srtParser  = require('srt_parser_composer').parser.parseSrtFileToJsonWordsLines;
+  //var parser = require('parseSrtFileToJsonWordsLines');
+  var srtFile = srtfile;
+  srtParser(srtFile, function(res){
+    var incomingdata = JSON.stringify(res, null, 2);
+    fs.writeFile("srtparserdata.json", incomingdata);
+  });
+}
 
+
+/*
+THIS CODE IS FOR WHEN WE WERE CUTTING INDIVIDUAL CLIPS AND COMBINING THEM, BEFORE POPCORN JS
+app.post("/mix", makemix);
 function makemix(request, response) {
     operation_number +=1;
     var videoNames = [];
@@ -116,8 +131,7 @@ function makemix(request, response) {
    });
 
  }
-
-
+*/
 
 
 

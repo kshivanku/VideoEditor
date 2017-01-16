@@ -5,7 +5,9 @@ var operation_number = 0;
 
 var express = require("express");
 var app = express();
-var server = app.listen(8000);
+var server = app.listen(8000, function(){
+  console.log("listening on port 8000");
+});
 
 var fs = require("fs");
 var youtubedl = require("youtube-dl");

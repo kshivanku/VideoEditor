@@ -144,6 +144,7 @@ video {
   text-transform: lowercase;
   font-size: 13px;
   display: inline-block;
+  padding: 0 5px;
 }
 
 #subtitle p:active {

@@ -1,4 +1,4 @@
-function calcwordtime(srtjson){
+function calcwordtime(srtjson, video_num){
   var splitfactor = /[\s\r]/;
   for( i = 0 ; i < srtjson.length ; i++){
     var wordarray = srtjson[i].content.split(splitfactor);
@@ -10,6 +10,8 @@ function calcwordtime(srtjson){
       word.duration = (wordarray[j].length / totalchars) * srtjson[i].duration;
       word.startsec = startsec;
       word.endsec = startsec + word.duration;
+      word.vidsource = 'videos/' + video_num + '.mp4';
+      word.id = srtjson[i].id + "." + j;
       startsec = word.endsec;
       srtjson[i].words.push(word);
     }
@@ -31,6 +33,8 @@ function Word(){
   this.endsec;
   this.duration;
   this.content;
+  this.vidsource;
+  this.id;
 }
 
 module.exports.calcwordtime = calcwordtime;

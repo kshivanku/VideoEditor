@@ -58,7 +58,7 @@ function download_video(request, response) {
             .on('end', function() {
                 console.log('Finished processing');
                 // VTT file is converted to SRT, now we have to get word level times
-                getwordlevelsrt('public/videos/' + video_number + '.srt');
+                getwordlevelsrt('public/videos/' + video_number + '.srt', video_number);
             })
             .on('progress', function(progress) {
               console.log('Processing: ' + progress.percent + '% done');
@@ -84,9 +84,9 @@ function download_video(request, response) {
     }, 1000);
 }
 
-function getwordlevelsrt(srtfile){
+function getwordlevelsrt(srtfile, video_num){
   var srttojson = require("./srttojson.js").srttojson;
-  srtjson = srttojson(srtfile); //This will convert the srt file into a JSON object with word level transcription
+  srtjson = srttojson(srtfile, video_num); //This will convert the srt file into a JSON object with word level transcription
   //Writing the JSON to a separate file
   var srtjson_string = JSON.stringify(srtjson, null, 2);
   fs.writeFile("wordlevelsrt.json", srtjson_string);

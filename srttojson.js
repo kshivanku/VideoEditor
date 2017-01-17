@@ -6,7 +6,7 @@ var pstartsec;
 var fs = require('fs');
 var calcsecs = require("./calcsecs.js").calcsecs;
 
-function srttojson(srtfile){
+function srttojson(srtfile, video_num){
   var srtjson = [];
   var segment;
   srtFile = fs.readFileSync(srtfile).toString();
@@ -47,7 +47,7 @@ function srttojson(srtfile){
   }
   console.log("srt is converted into json, now going for word level transcribing");
   var calcwordtime = require("./calcwordtime.js").calcwordtime;
-  var srtwordjson = calcwordtime(srtjson);
+  var srtwordjson = calcwordtime(srtjson, video_num);
   return srtwordjson;
 }
 

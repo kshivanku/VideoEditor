@@ -1,0 +1,5849 @@
+[
+  {
+    "words": [
+      {
+        "content": "scientists",
+        "duration": 1.209375,
+        "startsec": 0,
+        "endsec": 1.209375
+      },
+      {
+        "content": "have",
+        "duration": 0.48375,
+        "startsec": 1.209375,
+        "endsec": 1.6931250000000002
+      },
+      {
+        "content": "been",
+        "duration": 0.48375,
+        "startsec": 1.6931250000000002,
+        "endsec": 2.1768750000000003
+      },
+      {
+        "content": "warning",
+        "duration": 0.8465625,
+        "startsec": 2.1768750000000003,
+        "endsec": 3.0234375000000004
+      },
+      {
+        "content": "that",
+        "duration": 0.48375,
+        "startsec": 3.0234375000000004,
+        "endsec": 3.5071875000000006
+      },
+      {
+        "content": "sea",
+        "duration": 0.3628125,
+        "startsec": 3.5071875000000006,
+        "endsec": 3.8700000000000006
+      }
+    ],
+    "id": "1",
+    "startsec": 0,
+    "endsec": 3.87,
+    "duration": 3.87,
+    "content": "scientists have been warning that sea"
+  },
+  {
+    "words": [
+      {
+        "content": "levels",
+        "duration": 0.8400000000000001,
+        "startsec": 1.8,
+        "endsec": 2.64
+      },
+      {
+        "content": "could",
+        "duration": 0.7,
+        "startsec": 2.64,
+        "endsec": 3.34
+      },
+      {
+        "content": "rise",
+        "duration": 0.56,
+        "startsec": 3.34,
+        "endsec": 3.9
+      },
+      {
+        "content": "by",
+        "duration": 0.28,
+        "startsec": 3.9,
+        "endsec": 4.18
+      },
+      {
+        "content": "up",
+        "duration": 0.28,
+        "startsec": 4.18,
+        "endsec": 4.46
+      },
+      {
+        "content": "to",
+        "duration": 0.28,
+        "startsec": 4.46,
+        "endsec": 4.74
+      },
+      {
+        "content": "six",
+        "duration": 0.42000000000000004,
+        "startsec": 4.74,
+        "endsec": 5.16
+      },
+      {
+        "content": "feet",
+        "duration": 0.56,
+        "startsec": 5.16,
+        "endsec": 5.720000000000001
+      },
+      {
+        "content": "by",
+        "duration": 0.28,
+        "startsec": 5.720000000000001,
+        "endsec": 6.000000000000001
+      }
+    ],
+    "id": "2",
+    "startsec": 1.8,
+    "endsec": 6,
+    "duration": 4.2,
+    "content": "levels could rise by up to six feet by"
+  },
+  {
+    "words": [
+      {
+        "content": "the",
+        "duration": 0.4209677419354839,
+        "startsec": 3.87,
+        "endsec": 4.290967741935484
+      },
+      {
+        "content": "end",
+        "duration": 0.4209677419354839,
+        "startsec": 4.290967741935484,
+        "endsec": 4.711935483870968
+      },
+      {
+        "content": "of",
+        "duration": 0.28064516129032263,
+        "startsec": 4.711935483870968,
+        "endsec": 4.99258064516129
+      },
+      {
+        "content": "the",
+        "duration": 0.4209677419354839,
+        "startsec": 4.99258064516129,
+        "endsec": 5.413548387096774
+      },
+      {
+        "content": "century",
+        "duration": 0.9822580645161291,
+        "startsec": 5.413548387096774,
+        "endsec": 6.395806451612903
+      },
+      {
+        "content": "and",
+        "duration": 0.4209677419354839,
+        "startsec": 6.395806451612903,
+        "endsec": 6.816774193548387
+      },
+      {
+        "content": "like",
+        "duration": 0.5612903225806453,
+        "startsec": 6.816774193548387,
+        "endsec": 7.378064516129032
+      },
+      {
+        "content": "a",
+        "duration": 0.14032258064516132,
+        "startsec": 7.378064516129032,
+        "endsec": 7.518387096774194
+      },
+      {
+        "content": "lot",
+        "duration": 0.4209677419354839,
+        "startsec": 7.518387096774194,
+        "endsec": 7.9393548387096775
+      },
+      {
+        "content": "of",
+        "duration": 0.28064516129032263,
+        "startsec": 7.9393548387096775,
+        "endsec": 8.22
+      }
+    ],
+    "id": "3",
+    "startsec": 3.87,
+    "endsec": 8.22,
+    "duration": 4.3500000000000005,
+    "content": "the end of the century and like a lot of"
+  },
+  {
+    "words": [
+      {
+        "content": "dire",
+        "duration": 0.5223529411764706,
+        "startsec": 6,
+        "endsec": 6.522352941176471
+      },
+      {
+        "content": "climate",
+        "duration": 0.9141176470588234,
+        "startsec": 6.522352941176471,
+        "endsec": 7.436470588235294
+      },
+      {
+        "content": "change",
+        "duration": 0.7835294117647058,
+        "startsec": 7.436470588235294,
+        "endsec": 8.22
+      },
+      {
+        "content": "warnings",
+        "duration": 1.0447058823529412,
+        "startsec": 8.22,
+        "endsec": 9.264705882352942
+      },
+      {
+        "content": "the",
+        "duration": 0.3917647058823529,
+        "startsec": 9.264705882352942,
+        "endsec": 9.656470588235296
+      },
+      {
+        "content": "threat",
+        "duration": 0.7835294117647058,
+        "startsec": 9.656470588235296,
+        "endsec": 10.440000000000001
+      }
+    ],
+    "id": "4",
+    "startsec": 6,
+    "endsec": 10.44,
+    "duration": 4.4399999999999995,
+    "content": "dire climate change warnings the threat"
+  },
+  {
+    "words": [
+      {
+        "content": "can",
+        "duration": 0.46406249999999993,
+        "startsec": 8.22,
+        "endsec": 8.684062500000001
+      },
+      {
+        "content": "sound",
+        "duration": 0.7734374999999999,
+        "startsec": 8.684062500000001,
+        "endsec": 9.457500000000001
+      },
+      {
+        "content": "vague",
+        "duration": 0.7734374999999999,
+        "startsec": 9.457500000000001,
+        "endsec": 10.230937500000001
+      },
+      {
+        "content": "and",
+        "duration": 0.46406249999999993,
+        "startsec": 10.230937500000001,
+        "endsec": 10.695000000000002
+      },
+      {
+        "content": "distant",
+        "duration": 1.0828124999999997,
+        "startsec": 10.695000000000002,
+        "endsec": 11.777812500000001
+      },
+      {
+        "content": "but",
+        "duration": 0.46406249999999993,
+        "startsec": 11.777812500000001,
+        "endsec": 12.241875000000002
+      },
+      {
+        "content": "that's",
+        "duration": 0.9281249999999999,
+        "startsec": 12.241875000000002,
+        "endsec": 13.170000000000002
+      }
+    ],
+    "id": "5",
+    "startsec": 8.22,
+    "endsec": 13.17,
+    "duration": 4.949999999999999,
+    "content": "can sound vague and distant but that's"
+  },
+  {
+    "words": [
+      {
+        "content": "not",
+        "duration": 0.45271875000000006,
+        "startsec": 10.44,
+        "endsec": 10.89271875
+      },
+      {
+        "content": "the",
+        "duration": 0.45271875000000006,
+        "startsec": 10.89271875,
+        "endsec": 11.345437500000001
+      },
+      {
+        "content": "case",
+        "duration": 0.6036250000000001,
+        "startsec": 11.345437500000001,
+        "endsec": 11.9490625
+      },
+      {
+        "content": "on",
+        "duration": 0.30181250000000004,
+        "startsec": 11.9490625,
+        "endsec": 12.250875
+      },
+      {
+        "content": "Tangier",
+        "duration": 1.0563437500000001,
+        "startsec": 12.250875,
+        "endsec": 13.30721875
+      },
+      {
+        "content": "Island",
+        "duration": 0.9054375000000001,
+        "startsec": 13.30721875,
+        "endsec": 14.21265625
+      },
+      {
+        "content": "90",
+        "duration": 0.30181250000000004,
+        "startsec": 14.21265625,
+        "endsec": 14.51446875
+      },
+      {
+        "content": "miles",
+        "duration": 0.7545312500000001,
+        "startsec": 14.51446875,
+        "endsec": 15.269
+      }
+    ],
+    "id": "6",
+    "startsec": 10.44,
+    "endsec": 15.269,
+    "duration": 4.829000000000001,
+    "content": "not the case on Tangier Island 90 miles"
+  },
+  {
+    "words": [
+      {
+        "content": "south",
+        "duration": 0.7673076923076924,
+        "startsec": 13.17,
+        "endsec": 13.937307692307693
+      },
+      {
+        "content": "of",
+        "duration": 0.30692307692307697,
+        "startsec": 13.937307692307693,
+        "endsec": 14.24423076923077
+      },
+      {
+        "content": "Washington",
+        "duration": 1.5346153846153847,
+        "startsec": 14.24423076923077,
+        "endsec": 15.778846153846155
+      },
+      {
+        "content": "DC",
+        "duration": 0.30692307692307697,
+        "startsec": 15.778846153846155,
+        "endsec": 16.08576923076923
+      },
+      {
+        "content": "for",
+        "duration": 0.46038461538461545,
+        "startsec": 16.08576923076923,
+        "endsec": 16.546153846153846
+      },
+      {
+        "content": "this",
+        "duration": 0.6138461538461539,
+        "startsec": 16.546153846153846,
+        "endsec": 17.16
+      }
+    ],
+    "id": "7",
+    "startsec": 13.17,
+    "endsec": 17.16,
+    "duration": 3.99,
+    "content": "south of Washington DC for this"
+  },
+  {
+    "words": [
+      {
+        "content": "community",
+        "duration": 1.3415625000000004,
+        "startsec": 15.269,
+        "endsec": 16.6105625
+      },
+      {
+        "content": "of",
+        "duration": 0.2981250000000001,
+        "startsec": 16.6105625,
+        "endsec": 16.9086875
+      },
+      {
+        "content": "fishermen",
+        "duration": 1.3415625000000004,
+        "startsec": 16.9086875,
+        "endsec": 18.25025
+      },
+      {
+        "content": "the",
+        "duration": 0.4471875000000001,
+        "startsec": 18.25025,
+        "endsec": 18.697437500000003
+      },
+      {
+        "content": "change",
+        "duration": 0.8943750000000003,
+        "startsec": 18.697437500000003,
+        "endsec": 19.591812500000003
+      },
+      {
+        "content": "has",
+        "duration": 0.4471875000000001,
+        "startsec": 19.591812500000003,
+        "endsec": 20.039000000000005
+      }
+    ],
+    "id": "8",
+    "startsec": 15.269,
+    "endsec": 20.039,
+    "duration": 4.770000000000001,
+    "content": "community of fishermen the change has"
+  },
+  {
+    "words": [
+      {
+        "content": "already",
+        "duration": 1.9090909090909092,
+        "startsec": 17.16,
+        "endsec": 19.06909090909091
+      },
+      {
+        "content": "begun",
+        "duration": 1.3636363636363638,
+        "startsec": 19.06909090909091,
+        "endsec": 20.432727272727274
+      },
+      {
+        "content": "aerial",
+        "duration": 1.6363636363636365,
+        "startsec": 20.432727272727274,
+        "endsec": 22.06909090909091
+      },
+      {
+        "content": "do",
+        "duration": 0.5454545454545454,
+        "startsec": 22.06909090909091,
+        "endsec": 22.614545454545457
+      },
+      {
+        "content": "I'm",
+        "duration": 0.8181818181818182,
+        "startsec": 22.614545454545457,
+        "endsec": 23.432727272727274
+      },
+      {
+        "content": "Ross",
+        "duration": 1.0909090909090908,
+        "startsec": 23.432727272727274,
+        "endsec": 24.523636363636363
+      },
+      {
+        "content": "went",
+        "duration": 1.0909090909090908,
+        "startsec": 24.523636363636363,
+        "endsec": 25.614545454545453
+      },
+      {
+        "content": "to",
+        "duration": 0.5454545454545454,
+        "startsec": 25.614545454545453,
+        "endsec": 26.16
+      }
+    ],
+    "id": "9",
+    "startsec": 17.16,
+    "endsec": 26.16,
+    "duration": 9,
+    "content": "already begun aerial do I'm Ross went to"
+  },
+  {
+    "words": [
+      {
+        "content": "see",
+        "duration": 0.9239999999999999,
+        "startsec": 20.039,
+        "endsec": 20.963
+      },
+      {
+        "content": "how",
+        "duration": 0.9239999999999999,
+        "startsec": 20.963,
+        "endsec": 21.887
+      },
+      {
+        "content": "well",
+        "duration": 1.2319999999999998,
+        "startsec": 21.887,
+        "endsec": 23.119
+      },
+      {
+        "content": "you're",
+        "duration": 1.8479999999999999,
+        "startsec": 23.119,
+        "endsec": 24.967
+      },
+      {
+        "content": "more",
+        "duration": 1.2319999999999998,
+        "startsec": 24.967,
+        "endsec": 26.198999999999998
+      },
+      {
+        "content": "just",
+        "duration": 1.2319999999999998,
+        "startsec": 26.198999999999998,
+        "endsec": 27.430999999999997
+      },
+      {
+        "content": "breeze",
+        "duration": 1.8479999999999999,
+        "startsec": 27.430999999999997,
+        "endsec": 29.278999999999996
+      }
+    ],
+    "id": "10",
+    "startsec": 20.039,
+    "endsec": 29.279,
+    "duration": 9.239999999999998,
+    "content": "see how well you're more just breeze"
+  },
+  {
+    "words": [
+      {
+        "content": "we're",
+        "duration": 1.2724137931034483,
+        "startsec": 26.16,
+        "endsec": 27.43241379310345
+      },
+      {
+        "content": "covering",
+        "duration": 2.035862068965517,
+        "startsec": 27.43241379310345,
+        "endsec": 29.468275862068968
+      },
+      {
+        "content": "18",
+        "duration": 0.5089655172413793,
+        "startsec": 29.468275862068968,
+        "endsec": 29.977241379310346
+      },
+      {
+        "content": "balls",
+        "duration": 1.2724137931034483,
+        "startsec": 29.977241379310346,
+        "endsec": 31.249655172413796
+      },
+      {
+        "content": "dangerous",
+        "duration": 2.290344827586207,
+        "startsec": 31.249655172413796,
+        "endsec": 33.540000000000006
+      }
+    ],
+    "id": "11",
+    "startsec": 26.16,
+    "endsec": 33.54,
+    "duration": 7.379999999999999,
+    "content": "we're covering 18 balls dangerous"
+  },
+  {
+    "words": [
+      {
+        "content": "Tangier",
+        "duration": 1.7017241379310348,
+        "startsec": 29.279,
+        "endsec": 30.980724137931034
+      },
+      {
+        "content": "Island",
+        "duration": 1.4586206896551726,
+        "startsec": 30.980724137931034,
+        "endsec": 32.439344827586204
+      },
+      {
+        "content": "is",
+        "duration": 0.48620689655172417,
+        "startsec": 32.439344827586204,
+        "endsec": 32.925551724137925
+      },
+      {
+        "content": "a",
+        "duration": 0.24310344827586208,
+        "startsec": 32.925551724137925,
+        "endsec": 33.168655172413786
+      },
+      {
+        "content": "remote",
+        "duration": 1.4586206896551726,
+        "startsec": 33.168655172413786,
+        "endsec": 34.627275862068956
+      },
+      {
+        "content": "fishing",
+        "duration": 1.7017241379310348,
+        "startsec": 34.627275862068956,
+        "endsec": 36.32899999999999
+      }
+    ],
+    "id": "12",
+    "startsec": 29.279,
+    "endsec": 36.329,
+    "duration": 7.050000000000001,
+    "content": "Tangier Island is a remote fishing"
+  },
+  {
+    "words": [
+      {
+        "content": "community",
+        "duration": 1.251545454545454,
+        "startsec": 33.54,
+        "endsec": 34.79154545454546
+      },
+      {
+        "content": "located",
+        "duration": 0.9734242424242422,
+        "startsec": 34.79154545454546,
+        "endsec": 35.7649696969697
+      },
+      {
+        "content": "18",
+        "duration": 0.27812121212121205,
+        "startsec": 35.7649696969697,
+        "endsec": 36.043090909090914
+      },
+      {
+        "content": "miles",
+        "duration": 0.6953030303030301,
+        "startsec": 36.043090909090914,
+        "endsec": 36.738393939393944
+      },
+      {
+        "content": "offshore",
+        "duration": 1.1124848484848482,
+        "startsec": 36.738393939393944,
+        "endsec": 37.85087878787879
+      },
+      {
+        "content": "on",
+        "duration": 0.27812121212121205,
+        "startsec": 37.85087878787879,
+        "endsec": 38.129000000000005
+      }
+    ],
+    "id": "13",
+    "startsec": 33.54,
+    "endsec": 38.129,
+    "duration": 4.588999999999999,
+    "content": "community located 18 miles offshore on"
+  },
+  {
+    "words": [
+      {
+        "content": "the",
+        "duration": 0.4690909090909088,
+        "startsec": 36.329,
+        "endsec": 36.79809090909091
+      },
+      {
+        "content": "Virginia",
+        "duration": 1.25090909090909,
+        "startsec": 36.79809090909091,
+        "endsec": 38.049
+      },
+      {
+        "content": "side",
+        "duration": 0.625454545454545,
+        "startsec": 38.049,
+        "endsec": 38.674454545454545
+      },
+      {
+        "content": "of",
+        "duration": 0.3127272727272725,
+        "startsec": 38.674454545454545,
+        "endsec": 38.98718181818182
+      },
+      {
+        "content": "the",
+        "duration": 0.4690909090909088,
+        "startsec": 38.98718181818182,
+        "endsec": 39.456272727272726
+      },
+      {
+        "content": "Chesapeake",
+        "duration": 1.5636363636363626,
+        "startsec": 39.456272727272726,
+        "endsec": 41.01990909090909
+      },
+      {
+        "content": "Bay",
+        "duration": 0.4690909090909088,
+        "startsec": 41.01990909090909,
+        "endsec": 41.489
+      }
+    ],
+    "id": "14",
+    "startsec": 36.329,
+    "endsec": 41.489,
+    "duration": 5.159999999999997,
+    "content": "the Virginia side of the Chesapeake Bay"
+  },
+  {
+    "words": [
+      {
+        "content": "thanks",
+        "duration": 1.1298620689655183,
+        "startsec": 38.129,
+        "endsec": 39.25886206896551
+      },
+      {
+        "content": "to",
+        "duration": 0.3766206896551728,
+        "startsec": 39.25886206896551,
+        "endsec": 39.63548275862068
+      },
+      {
+        "content": "its",
+        "duration": 0.5649310344827592,
+        "startsec": 39.63548275862068,
+        "endsec": 40.20041379310344
+      },
+      {
+        "content": "isolation",
+        "duration": 1.6947931034482777,
+        "startsec": 40.20041379310344,
+        "endsec": 41.89520689655172
+      },
+      {
+        "content": "many",
+        "duration": 0.7532413793103456,
+        "startsec": 41.89520689655172,
+        "endsec": 42.648448275862066
+      },
+      {
+        "content": "of",
+        "duration": 0.3766206896551728,
+        "startsec": 42.648448275862066,
+        "endsec": 43.025068965517235
+      },
+      {
+        "content": "the",
+        "duration": 0.5649310344827592,
+        "startsec": 43.025068965517235,
+        "endsec": 43.589999999999996
+      }
+    ],
+    "id": "15",
+    "startsec": 38.129,
+    "endsec": 43.59,
+    "duration": 5.461000000000006,
+    "content": "thanks to its isolation many of the"
+  },
+  {
+    "words": [
+      {
+        "content": "islands",
+        "duration": 0.8400000000000007,
+        "startsec": 41.489,
+        "endsec": 42.329
+      },
+      {
+        "content": "500",
+        "duration": 0.3600000000000003,
+        "startsec": 42.329,
+        "endsec": 42.689
+      },
+      {
+        "content": "residents",
+        "duration": 1.080000000000001,
+        "startsec": 42.689,
+        "endsec": 43.769
+      },
+      {
+        "content": "can",
+        "duration": 0.3600000000000003,
+        "startsec": 43.769,
+        "endsec": 44.129
+      },
+      {
+        "content": "trace",
+        "duration": 0.6000000000000005,
+        "startsec": 44.129,
+        "endsec": 44.729
+      },
+      {
+        "content": "their",
+        "duration": 0.6000000000000005,
+        "startsec": 44.729,
+        "endsec": 45.329
+      }
+    ],
+    "id": "16",
+    "startsec": 41.489,
+    "endsec": 45.329,
+    "duration": 3.8400000000000034,
+    "content": "islands 500 residents can trace their"
+  },
+  {
+    "words": [
+      {
+        "content": "lineage",
+        "duration": 1.1245161290322574,
+        "startsec": 43.59,
+        "endsec": 44.71451612903226
+      },
+      {
+        "content": "back",
+        "duration": 0.6425806451612899,
+        "startsec": 44.71451612903226,
+        "endsec": 45.35709677419355
+      },
+      {
+        "content": "to",
+        "duration": 0.32129032258064494,
+        "startsec": 45.35709677419355,
+        "endsec": 45.678387096774195
+      },
+      {
+        "content": "when",
+        "duration": 0.6425806451612899,
+        "startsec": 45.678387096774195,
+        "endsec": 46.32096774193548
+      },
+      {
+        "content": "it",
+        "duration": 0.32129032258064494,
+        "startsec": 46.32096774193548,
+        "endsec": 46.64225806451613
+      },
+      {
+        "content": "was",
+        "duration": 0.4819354838709674,
+        "startsec": 46.64225806451613,
+        "endsec": 47.1241935483871
+      },
+      {
+        "content": "a",
+        "duration": 0.16064516129032247,
+        "startsec": 47.1241935483871,
+        "endsec": 47.28483870967742
+      },
+      {
+        "content": "colonial",
+        "duration": 1.2851612903225798,
+        "startsec": 47.28483870967742,
+        "endsec": 48.57
+      }
+    ],
+    "id": "17",
+    "startsec": 43.59,
+    "endsec": 48.57,
+    "duration": 4.979999999999997,
+    "content": "lineage back to when it was a colonial"
+  },
+  {
+    "words": [
+      {
+        "content": "outpost",
+        "duration": 6.6910000000000025,
+        "startsec": 45.329,
+        "endsec": 52.02
+      }
+    ],
+    "id": "18",
+    "startsec": 45.329,
+    "endsec": 52.02,
+    "duration": 6.6910000000000025,
+    "content": "outpost"
+  },
+  {
+    "words": [
+      {
+        "content": "[Music]",
+        "duration": 5.880000000000003,
+        "startsec": 48.57,
+        "endsec": 54.45
+      }
+    ],
+    "id": "19",
+    "startsec": 48.57,
+    "endsec": 54.45,
+    "duration": 5.880000000000003,
+    "content": "[Music]"
+  },
+  {
+    "words": [
+      {
+        "content": "but",
+        "duration": 0.5275862068965511,
+        "startsec": 52.02,
+        "endsec": 52.547586206896554
+      },
+      {
+        "content": "only",
+        "duration": 0.7034482758620682,
+        "startsec": 52.547586206896554,
+        "endsec": 53.25103448275862
+      },
+      {
+        "content": "a",
+        "duration": 0.17586206896551704,
+        "startsec": 53.25103448275862,
+        "endsec": 53.426896551724134
+      },
+      {
+        "content": "mile",
+        "duration": 0.7034482758620682,
+        "startsec": 53.426896551724134,
+        "endsec": 54.1303448275862
+      },
+      {
+        "content": "wide",
+        "duration": 0.7034482758620682,
+        "startsec": 54.1303448275862,
+        "endsec": 54.833793103448265
+      },
+      {
+        "content": "and",
+        "duration": 0.5275862068965511,
+        "startsec": 54.833793103448265,
+        "endsec": 55.361379310344816
+      },
+      {
+        "content": "4",
+        "duration": 0.17586206896551704,
+        "startsec": 55.361379310344816,
+        "endsec": 55.53724137931033
+      },
+      {
+        "content": "feet",
+        "duration": 0.7034482758620682,
+        "startsec": 55.53724137931033,
+        "endsec": 56.240689655172396
+      },
+      {
+        "content": "above",
+        "duration": 0.8793103448275853,
+        "startsec": 56.240689655172396,
+        "endsec": 57.11999999999998
+      }
+    ],
+    "id": "20",
+    "startsec": 52.02,
+    "endsec": 57.12,
+    "duration": 5.099999999999994,
+    "content": "but only a mile wide and 4 feet above"
+  },
+  {
+    "words": [
+      {
+        "content": "sea",
+        "duration": 0.4674193548387095,
+        "startsec": 54.45,
+        "endsec": 54.917419354838714
+      },
+      {
+        "content": "level",
+        "duration": 0.7790322580645158,
+        "startsec": 54.917419354838714,
+        "endsec": 55.69645161290323
+      },
+      {
+        "content": "rising",
+        "duration": 0.934838709677419,
+        "startsec": 55.69645161290323,
+        "endsec": 56.631290322580654
+      },
+      {
+        "content": "waters",
+        "duration": 0.934838709677419,
+        "startsec": 56.631290322580654,
+        "endsec": 57.566129032258075
+      },
+      {
+        "content": "are",
+        "duration": 0.4674193548387095,
+        "startsec": 57.566129032258075,
+        "endsec": 58.033548387096786
+      },
+      {
+        "content": "claiming",
+        "duration": 1.2464516129032253,
+        "startsec": 58.033548387096786,
+        "endsec": 59.28000000000001
+      }
+    ],
+    "id": "21",
+    "startsec": 54.45,
+    "endsec": 59.28,
+    "duration": 4.829999999999998,
+    "content": "sea level rising waters are claiming"
+  },
+  {
+    "words": [
+      {
+        "content": "more",
+        "duration": 0.3788235294117654,
+        "startsec": 57.12,
+        "endsec": 57.498823529411766
+      },
+      {
+        "content": "of",
+        "duration": 0.1894117647058827,
+        "startsec": 57.498823529411766,
+        "endsec": 57.688235294117646
+      },
+      {
+        "content": "the",
+        "duration": 0.2841176470588241,
+        "startsec": 57.688235294117646,
+        "endsec": 57.97235294117647
+      },
+      {
+        "content": "island",
+        "duration": 0.5682352941176482,
+        "startsec": 57.97235294117647,
+        "endsec": 58.540588235294116
+      },
+      {
+        "content": "each",
+        "duration": 0.3788235294117654,
+        "startsec": 58.540588235294116,
+        "endsec": 58.919411764705885
+      },
+      {
+        "content": "year",
+        "duration": 0.3788235294117654,
+        "startsec": 58.919411764705885,
+        "endsec": 59.29823529411765
+      },
+      {
+        "content": "threatening",
+        "duration": 1.041764705882355,
+        "startsec": 59.29823529411765,
+        "endsec": 60.34000000000001
+      }
+    ],
+    "id": "22",
+    "startsec": 57.12,
+    "endsec": 60.34,
+    "duration": 3.220000000000006,
+    "content": "more of the island each year threatening"
+  },
+  {
+    "words": [
+      {
+        "content": "its",
+        "duration": 1.556666666666667,
+        "startsec": 59.28,
+        "endsec": 60.836666666666666
+      },
+      {
+        "content": "future",
+        "duration": 3.113333333333334,
+        "startsec": 60.836666666666666,
+        "endsec": 63.95
+      }
+    ],
+    "id": "23",
+    "startsec": 59.28,
+    "endsec": 63.95,
+    "duration": 4.670000000000002,
+    "content": "its future"
+  },
+  {
+    "words": [
+      {
+        "content": "[Music]",
+        "duration": 5.950000000000003,
+        "startsec": 60.34,
+        "endsec": 66.29
+      }
+    ],
+    "id": "24",
+    "startsec": 60.34,
+    "endsec": 66.29,
+    "duration": 5.950000000000003,
+    "content": "[Music]"
+  },
+  {
+    "words": [
+      {
+        "content": "so",
+        "duration": 0.23599999999999946,
+        "startsec": 63.95,
+        "endsec": 64.186
+      },
+      {
+        "content": "these",
+        "duration": 0.5899999999999986,
+        "startsec": 64.186,
+        "endsec": 64.77600000000001
+      },
+      {
+        "content": "leaves",
+        "duration": 0.7079999999999984,
+        "startsec": 64.77600000000001,
+        "endsec": 65.48400000000001
+      },
+      {
+        "content": "are",
+        "duration": 0.3539999999999992,
+        "startsec": 65.48400000000001,
+        "endsec": 65.83800000000001
+      },
+      {
+        "content": "restaurants",
+        "duration": 1.297999999999997,
+        "startsec": 65.83800000000001,
+        "endsec": 67.13600000000001
+      },
+      {
+        "content": "yes",
+        "duration": 0.3539999999999992,
+        "startsec": 67.13600000000001,
+        "endsec": 67.49000000000001
+      }
+    ],
+    "id": "25",
+    "startsec": 63.95,
+    "endsec": 67.49,
+    "duration": 3.539999999999992,
+    "content": "so these leaves are restaurants yes"
+  },
+  {
+    "words": [
+      {
+        "content": "these",
+        "duration": 0.4999999999999976,
+        "startsec": 66.29,
+        "endsec": 66.79
+      },
+      {
+        "content": "are",
+        "duration": 0.2999999999999986,
+        "startsec": 66.79,
+        "endsec": 67.09
+      },
+      {
+        "content": "the",
+        "duration": 0.2999999999999986,
+        "startsec": 67.09,
+        "endsec": 67.39
+      },
+      {
+        "content": "two",
+        "duration": 0.2999999999999986,
+        "startsec": 67.39,
+        "endsec": 67.69
+      },
+      {
+        "content": "restaurants",
+        "duration": 1.0999999999999948,
+        "startsec": 67.69,
+        "endsec": 68.78999999999999
+      },
+      {
+        "content": "on",
+        "duration": 0.19999999999999904,
+        "startsec": 68.78999999999999,
+        "endsec": 68.99
+      },
+      {
+        "content": "the",
+        "duration": 0.2999999999999986,
+        "startsec": 68.99,
+        "endsec": 69.28999999999999
+      }
+    ],
+    "id": "26",
+    "startsec": 66.29,
+    "endsec": 69.28999999999999,
+    "duration": 2.999999999999986,
+    "content": "these are the two restaurants on the"
+  },
+  {
+    "words": [
+      {
+        "content": "island",
+        "duration": 0.7875000000000005,
+        "startsec": 67.49,
+        "endsec": 68.27749999999999
+      },
+      {
+        "content": "and",
+        "duration": 0.39375000000000027,
+        "startsec": 68.27749999999999,
+        "endsec": 68.67124999999999
+      },
+      {
+        "content": "right",
+        "duration": 0.6562500000000004,
+        "startsec": 68.67124999999999,
+        "endsec": 69.32749999999999
+      },
+      {
+        "content": "now",
+        "duration": 0.39375000000000027,
+        "startsec": 69.32749999999999,
+        "endsec": 69.72124999999998
+      },
+      {
+        "content": "it's",
+        "duration": 0.5250000000000004,
+        "startsec": 69.72124999999998,
+        "endsec": 70.24624999999999
+      },
+      {
+        "content": "essentially",
+        "duration": 1.443750000000001,
+        "startsec": 70.24624999999999,
+        "endsec": 71.68999999999998
+      }
+    ],
+    "id": "27",
+    "startsec": 67.49,
+    "endsec": 71.69,
+    "duration": 4.200000000000003,
+    "content": "island and right now it's essentially"
+  },
+  {
+    "words": [
+      {
+        "content": "almost",
+        "duration": 1.0090909090909113,
+        "startsec": 69.28999999999999,
+        "endsec": 70.2990909090909
+      },
+      {
+        "content": "impossible",
+        "duration": 1.6818181818181852,
+        "startsec": 70.2990909090909,
+        "endsec": 71.9809090909091
+      },
+      {
+        "content": "to",
+        "duration": 0.3363636363636371,
+        "startsec": 71.9809090909091,
+        "endsec": 72.31727272727274
+      },
+      {
+        "content": "get",
+        "duration": 0.5045454545454556,
+        "startsec": 72.31727272727274,
+        "endsec": 72.82181818181819
+      },
+      {
+        "content": "there",
+        "duration": 0.8409090909090926,
+        "startsec": 72.82181818181819,
+        "endsec": 73.66272727272728
+      },
+      {
+        "content": "without",
+        "duration": 1.1772727272727297,
+        "startsec": 73.66272727272728,
+        "endsec": 74.84000000000002
+      }
+    ],
+    "id": "28",
+    "startsec": 69.28999999999999,
+    "endsec": 74.84,
+    "duration": 5.550000000000011,
+    "content": "almost impossible to get there without"
+  },
+  {
+    "words": [
+      {
+        "content": "getting",
+        "duration": 1.3034482758620705,
+        "startsec": 71.69,
+        "endsec": 72.99344827586206
+      },
+      {
+        "content": "wet",
+        "duration": 0.558620689655173,
+        "startsec": 72.99344827586206,
+        "endsec": 73.55206896551724
+      },
+      {
+        "content": "it",
+        "duration": 0.3724137931034487,
+        "startsec": 73.55206896551724,
+        "endsec": 73.92448275862068
+      },
+      {
+        "content": "is",
+        "duration": 0.3724137931034487,
+        "startsec": 73.92448275862068,
+        "endsec": 74.29689655172413
+      },
+      {
+        "content": "impossible",
+        "duration": 1.8620689655172435,
+        "startsec": 74.29689655172413,
+        "endsec": 76.15896551724137
+      },
+      {
+        "content": "right",
+        "duration": 0.9310344827586218,
+        "startsec": 76.15896551724137,
+        "endsec": 77.08999999999999
+      }
+    ],
+    "id": "29",
+    "startsec": 71.69,
+    "endsec": 77.09,
+    "duration": 5.400000000000006,
+    "content": "getting wet it is impossible right"
+  },
+  {
+    "words": [
+      {
+        "content": "Apple",
+        "duration": 0.7499999999999992,
+        "startsec": 74.84,
+        "endsec": 75.59
+      },
+      {
+        "content": "Dave",
+        "duration": 0.5999999999999993,
+        "startsec": 75.59,
+        "endsec": 76.19
+      },
+      {
+        "content": "sheltie",
+        "duration": 1.0499999999999987,
+        "startsec": 76.19,
+        "endsec": 77.24
+      },
+      {
+        "content": "is",
+        "duration": 0.29999999999999966,
+        "startsec": 77.24,
+        "endsec": 77.53999999999999
+      },
+      {
+        "content": "a",
+        "duration": 0.14999999999999983,
+        "startsec": 77.53999999999999,
+        "endsec": 77.69
+      },
+      {
+        "content": "marine",
+        "duration": 0.899999999999999,
+        "startsec": 77.69,
+        "endsec": 78.59
+      },
+      {
+        "content": "biologist",
+        "duration": 1.3499999999999985,
+        "startsec": 78.59,
+        "endsec": 79.94
+      }
+    ],
+    "id": "30",
+    "startsec": 74.84,
+    "endsec": 79.94,
+    "duration": 5.099999999999994,
+    "content": "Apple Dave sheltie is a marine biologist"
+  },
+  {
+    "words": [
+      {
+        "content": "with",
+        "duration": 0.6077419354838701,
+        "startsec": 77.09,
+        "endsec": 77.69774193548388
+      },
+      {
+        "content": "the",
+        "duration": 0.4558064516129026,
+        "startsec": 77.69774193548388,
+        "endsec": 78.15354838709678
+      },
+      {
+        "content": "Army",
+        "duration": 0.6077419354838701,
+        "startsec": 78.15354838709678,
+        "endsec": 78.76129032258065
+      },
+      {
+        "content": "Corps",
+        "duration": 0.7596774193548377,
+        "startsec": 78.76129032258065,
+        "endsec": 79.5209677419355
+      },
+      {
+        "content": "of",
+        "duration": 0.30387096774193506,
+        "startsec": 79.5209677419355,
+        "endsec": 79.82483870967742
+      },
+      {
+        "content": "Engineers",
+        "duration": 1.367419354838708,
+        "startsec": 79.82483870967742,
+        "endsec": 81.19225806451612
+      },
+      {
+        "content": "he's",
+        "duration": 0.6077419354838701,
+        "startsec": 81.19225806451612,
+        "endsec": 81.8
+      }
+    ],
+    "id": "31",
+    "startsec": 77.09,
+    "endsec": 81.8,
+    "duration": 4.709999999999994,
+    "content": "with the Army Corps of Engineers he's"
+  },
+  {
+    "words": [
+      {
+        "content": "been",
+        "duration": 0.480000000000001,
+        "startsec": 79.94,
+        "endsec": 80.42
+      },
+      {
+        "content": "coming",
+        "duration": 0.7200000000000014,
+        "startsec": 80.42,
+        "endsec": 81.14
+      },
+      {
+        "content": "to",
+        "duration": 0.2400000000000005,
+        "startsec": 81.14,
+        "endsec": 81.38
+      },
+      {
+        "content": "Tangier",
+        "duration": 0.8400000000000017,
+        "startsec": 81.38,
+        "endsec": 82.22
+      },
+      {
+        "content": "Island",
+        "duration": 0.7200000000000014,
+        "startsec": 82.22,
+        "endsec": 82.94
+      },
+      {
+        "content": "for",
+        "duration": 0.3600000000000007,
+        "startsec": 82.94,
+        "endsec": 83.3
+      },
+      {
+        "content": "over",
+        "duration": 0.480000000000001,
+        "startsec": 83.3,
+        "endsec": 83.78
+      },
+      {
+        "content": "a",
+        "duration": 0.12000000000000025,
+        "startsec": 83.78,
+        "endsec": 83.9
+      }
+    ],
+    "id": "32",
+    "startsec": 79.94,
+    "endsec": 83.9,
+    "duration": 3.960000000000008,
+    "content": "been coming to Tangier Island for over a"
+  },
+  {
+    "words": [
+      {
+        "content": "decade",
+        "duration": 0.6060000000000003,
+        "startsec": 81.8,
+        "endsec": 82.40599999999999
+      },
+      {
+        "content": "you've",
+        "duration": 0.6060000000000003,
+        "startsec": 82.40599999999999,
+        "endsec": 83.01199999999999
+      },
+      {
+        "content": "been",
+        "duration": 0.40400000000000014,
+        "startsec": 83.01199999999999,
+        "endsec": 83.41599999999998
+      },
+      {
+        "content": "studying",
+        "duration": 0.8080000000000003,
+        "startsec": 83.41599999999998,
+        "endsec": 84.22399999999999
+      },
+      {
+        "content": "tanger",
+        "duration": 0.6060000000000003,
+        "startsec": 84.22399999999999,
+        "endsec": 84.82999999999998
+      }
+    ],
+    "id": "33",
+    "startsec": 81.8,
+    "endsec": 84.83,
+    "duration": 3.030000000000001,
+    "content": "decade you've been studying tanger"
+  },
+  {
+    "words": [
+      {
+        "content": "island",
+        "duration": 2.819999999999993,
+        "startsec": 83.9,
+        "endsec": 86.72
+      }
+    ],
+    "id": "34",
+    "startsec": 83.9,
+    "endsec": 86.72,
+    "duration": 2.819999999999993,
+    "content": "island"
+  },
+  {
+    "words": [
+      {
+        "content": "what",
+        "duration": 0.4965517241379322,
+        "startsec": 84.83,
+        "endsec": 85.32655172413793
+      },
+      {
+        "content": "have",
+        "duration": 0.4965517241379322,
+        "startsec": 85.32655172413793,
+        "endsec": 85.82310344827586
+      },
+      {
+        "content": "you",
+        "duration": 0.37241379310344913,
+        "startsec": 85.82310344827586,
+        "endsec": 86.1955172413793
+      },
+      {
+        "content": "found",
+        "duration": 0.6206896551724153,
+        "startsec": 86.1955172413793,
+        "endsec": 86.81620689655172
+      },
+      {
+        "content": "exactly",
+        "duration": 0.8689655172413814,
+        "startsec": 86.81620689655172,
+        "endsec": 87.6851724137931
+      },
+      {
+        "content": "i",
+        "duration": 0.12413793103448305,
+        "startsec": 87.6851724137931,
+        "endsec": 87.80931034482758
+      },
+      {
+        "content": "took",
+        "duration": 0.4965517241379322,
+        "startsec": 87.80931034482758,
+        "endsec": 88.30586206896551
+      },
+      {
+        "content": "a",
+        "duration": 0.12413793103448305,
+        "startsec": 88.30586206896551,
+        "endsec": 88.42999999999999
+      }
+    ],
+    "id": "35",
+    "startsec": 84.83,
+    "endsec": 88.43,
+    "duration": 3.6000000000000085,
+    "content": "what have you found exactly i took a"
+  },
+  {
+    "words": [
+      {
+        "content": "look",
+        "duration": 0.573333333333334,
+        "startsec": 86.72,
+        "endsec": 87.29333333333334
+      },
+      {
+        "content": "at",
+        "duration": 0.286666666666667,
+        "startsec": 87.29333333333334,
+        "endsec": 87.58
+      },
+      {
+        "content": "tanger",
+        "duration": 0.860000000000001,
+        "startsec": 87.58,
+        "endsec": 88.44
+      },
+      {
+        "content": "island",
+        "duration": 0.860000000000001,
+        "startsec": 88.44,
+        "endsec": 89.3
+      },
+      {
+        "content": "in",
+        "duration": 0.286666666666667,
+        "startsec": 89.3,
+        "endsec": 89.58666666666666
+      },
+      {
+        "content": "the",
+        "duration": 0.4300000000000005,
+        "startsec": 89.58666666666666,
+        "endsec": 90.01666666666667
+      },
+      {
+        "content": "past",
+        "duration": 0.573333333333334,
+        "startsec": 90.01666666666667,
+        "endsec": 90.59
+      }
+    ],
+    "id": "36",
+    "startsec": 86.72,
+    "endsec": 90.59,
+    "duration": 3.8700000000000045,
+    "content": "look at tanger island in the past"
+  },
+  {
+    "words": [
+      {
+        "content": "estimated",
+        "duration": 1.149677419354837,
+        "startsec": 88.43,
+        "endsec": 89.57967741935484
+      },
+      {
+        "content": "its",
+        "duration": 0.3832258064516123,
+        "startsec": 89.57967741935484,
+        "endsec": 89.96290322580644
+      },
+      {
+        "content": "rail",
+        "duration": 0.510967741935483,
+        "startsec": 89.96290322580644,
+        "endsec": 90.47387096774193
+      },
+      {
+        "content": "and",
+        "duration": 0.3832258064516123,
+        "startsec": 90.47387096774193,
+        "endsec": 90.85709677419354
+      },
+      {
+        "content": "loss",
+        "duration": 0.510967741935483,
+        "startsec": 90.85709677419354,
+        "endsec": 91.36806451612902
+      },
+      {
+        "content": "and",
+        "duration": 0.3832258064516123,
+        "startsec": 91.36806451612902,
+        "endsec": 91.75129032258063
+      },
+      {
+        "content": "then",
+        "duration": 0.510967741935483,
+        "startsec": 91.75129032258063,
+        "endsec": 92.26225806451612
+      },
+      {
+        "content": "I",
+        "duration": 0.12774193548387075,
+        "startsec": 92.26225806451612,
+        "endsec": 92.38999999999999
+      }
+    ],
+    "id": "37",
+    "startsec": 88.43,
+    "endsec": 92.39,
+    "duration": 3.9599999999999937,
+    "content": "estimated its rail and loss and then I"
+  },
+  {
+    "words": [
+      {
+        "content": "projected",
+        "duration": 1.0568571428571427,
+        "startsec": 90.59,
+        "endsec": 91.64685714285714
+      },
+      {
+        "content": "these",
+        "duration": 0.5871428571428571,
+        "startsec": 91.64685714285714,
+        "endsec": 92.234
+      },
+      {
+        "content": "with",
+        "duration": 0.46971428571428564,
+        "startsec": 92.234,
+        "endsec": 92.70371428571428
+      },
+      {
+        "content": "different",
+        "duration": 1.0568571428571427,
+        "startsec": 92.70371428571428,
+        "endsec": 93.76057142857142
+      },
+      {
+        "content": "sea",
+        "duration": 0.35228571428571426,
+        "startsec": 93.76057142857142,
+        "endsec": 94.11285714285714
+      },
+      {
+        "content": "level",
+        "duration": 0.5871428571428571,
+        "startsec": 94.11285714285714,
+        "endsec": 94.69999999999999
+      }
+    ],
+    "id": "38",
+    "startsec": 90.59,
+    "endsec": 94.7,
+    "duration": 4.109999999999999,
+    "content": "projected these with different sea level"
+  },
+  {
+    "words": [
+      {
+        "content": "rise",
+        "duration": 0.5587499999999999,
+        "startsec": 92.39,
+        "endsec": 92.94875
+      },
+      {
+        "content": "scenarios",
+        "duration": 1.2571874999999997,
+        "startsec": 92.94875,
+        "endsec": 94.2059375
+      },
+      {
+        "content": "into",
+        "duration": 0.5587499999999999,
+        "startsec": 94.2059375,
+        "endsec": 94.76468750000001
+      },
+      {
+        "content": "the",
+        "duration": 0.4190624999999999,
+        "startsec": 94.76468750000001,
+        "endsec": 95.18375
+      },
+      {
+        "content": "future",
+        "duration": 0.8381249999999998,
+        "startsec": 95.18375,
+        "endsec": 96.02187500000001
+      },
+      {
+        "content": "and",
+        "duration": 0.4190624999999999,
+        "startsec": 96.02187500000001,
+        "endsec": 96.4409375
+      },
+      {
+        "content": "in",
+        "duration": 0.27937499999999993,
+        "startsec": 96.4409375,
+        "endsec": 96.7203125
+      },
+      {
+        "content": "a",
+        "duration": 0.13968749999999996,
+        "startsec": 96.7203125,
+        "endsec": 96.86
+      }
+    ],
+    "id": "39",
+    "startsec": 92.39,
+    "endsec": 96.86,
+    "duration": 4.469999999999999,
+    "content": "rise scenarios into the future and in a"
+  },
+  {
+    "words": [
+      {
+        "content": "nutshell",
+        "duration": 1.5418181818181818,
+        "startsec": 94.7,
+        "endsec": 96.24181818181819
+      },
+      {
+        "content": "Tangier",
+        "duration": 1.3490909090909091,
+        "startsec": 96.24181818181819,
+        "endsec": 97.5909090909091
+      },
+      {
+        "content": "Island",
+        "duration": 1.1563636363636363,
+        "startsec": 97.5909090909091,
+        "endsec": 98.74727272727273
+      },
+      {
+        "content": "doesn't",
+        "duration": 1.3490909090909091,
+        "startsec": 98.74727272727273,
+        "endsec": 100.09636363636363
+      },
+      {
+        "content": "have",
+        "duration": 0.7709090909090909,
+        "startsec": 100.09636363636363,
+        "endsec": 100.86727272727272
+      },
+      {
+        "content": "a",
+        "duration": 0.19272727272727272,
+        "startsec": 100.86727272727272,
+        "endsec": 101.05999999999999
+      }
+    ],
+    "id": "40",
+    "startsec": 94.7,
+    "endsec": 101.06,
+    "duration": 6.359999999999999,
+    "content": "nutshell Tangier Island doesn't have a"
+  },
+  {
+    "words": [
+      {
+        "content": "whole",
+        "duration": 0.9725806451612905,
+        "startsec": 96.86,
+        "endsec": 97.83258064516129
+      },
+      {
+        "content": "lot",
+        "duration": 0.5835483870967743,
+        "startsec": 97.83258064516129,
+        "endsec": 98.41612903225806
+      },
+      {
+        "content": "of",
+        "duration": 0.3890322580645162,
+        "startsec": 98.41612903225806,
+        "endsec": 98.80516129032257
+      },
+      {
+        "content": "time",
+        "duration": 0.7780645161290324,
+        "startsec": 98.80516129032257,
+        "endsec": 99.58322580645161
+      },
+      {
+        "content": "because",
+        "duration": 1.3616129032258066,
+        "startsec": 99.58322580645161,
+        "endsec": 100.94483870967741
+      },
+      {
+        "content": "of",
+        "duration": 0.3890322580645162,
+        "startsec": 100.94483870967741,
+        "endsec": 101.33387096774193
+      },
+      {
+        "content": "its",
+        "duration": 0.5835483870967743,
+        "startsec": 101.33387096774193,
+        "endsec": 101.9174193548387
+      },
+      {
+        "content": "sandy",
+        "duration": 0.9725806451612905,
+        "startsec": 101.9174193548387,
+        "endsec": 102.88999999999999
+      }
+    ],
+    "id": "41",
+    "startsec": 96.86,
+    "endsec": 102.89,
+    "duration": 6.030000000000001,
+    "content": "whole lot of time because of its sandy"
+  },
+  {
+    "words": [
+      {
+        "content": "foundation",
+        "duration": 2.0400000000000014,
+        "startsec": 101.06,
+        "endsec": 103.10000000000001
+      },
+      {
+        "content": "Tangier",
+        "duration": 1.428000000000001,
+        "startsec": 103.10000000000001,
+        "endsec": 104.528
+      },
+      {
+        "content": "Island",
+        "duration": 1.224000000000001,
+        "startsec": 104.528,
+        "endsec": 105.75200000000001
+      },
+      {
+        "content": "has",
+        "duration": 0.6120000000000005,
+        "startsec": 105.75200000000001,
+        "endsec": 106.364
+      },
+      {
+        "content": "been",
+        "duration": 0.8160000000000006,
+        "startsec": 106.364,
+        "endsec": 107.18
+      }
+    ],
+    "id": "42",
+    "startsec": 101.06,
+    "endsec": 107.18,
+    "duration": 6.1200000000000045,
+    "content": "foundation Tangier Island has been"
+  },
+  {
+    "words": [
+      {
+        "content": "slowly",
+        "duration": 1.1170588235294114,
+        "startsec": 102.89,
+        "endsec": 104.0070588235294
+      },
+      {
+        "content": "sinking",
+        "duration": 1.3032352941176466,
+        "startsec": 104.0070588235294,
+        "endsec": 105.31029411764705
+      },
+      {
+        "content": "over",
+        "duration": 0.744705882352941,
+        "startsec": 105.31029411764705,
+        "endsec": 106.05499999999999
+      },
+      {
+        "content": "a",
+        "duration": 0.18617647058823525,
+        "startsec": 106.05499999999999,
+        "endsec": 106.24117647058823
+      },
+      {
+        "content": "century",
+        "duration": 1.3032352941176466,
+        "startsec": 106.24117647058823,
+        "endsec": 107.54441176470587
+      },
+      {
+        "content": "but",
+        "duration": 0.5585294117647057,
+        "startsec": 107.54441176470587,
+        "endsec": 108.10294117647058
+      },
+      {
+        "content": "thanks",
+        "duration": 1.1170588235294114,
+        "startsec": 108.10294117647058,
+        "endsec": 109.21999999999998
+      }
+    ],
+    "id": "43",
+    "startsec": 102.89,
+    "endsec": 109.22,
+    "duration": 6.329999999999998,
+    "content": "slowly sinking over a century but thanks"
+  },
+  {
+    "words": [
+      {
+        "content": "to",
+        "duration": 0.2606249999999992,
+        "startsec": 107.18,
+        "endsec": 107.44062500000001
+      },
+      {
+        "content": "erosion",
+        "duration": 0.9121874999999973,
+        "startsec": 107.44062500000001,
+        "endsec": 108.35281250000001
+      },
+      {
+        "content": "and",
+        "duration": 0.3909374999999988,
+        "startsec": 108.35281250000001,
+        "endsec": 108.74375
+      },
+      {
+        "content": "rising",
+        "duration": 0.7818749999999977,
+        "startsec": 108.74375,
+        "endsec": 109.525625
+      },
+      {
+        "content": "sea",
+        "duration": 0.3909374999999988,
+        "startsec": 109.525625,
+        "endsec": 109.9165625
+      },
+      {
+        "content": "levels",
+        "duration": 0.7818749999999977,
+        "startsec": 109.9165625,
+        "endsec": 110.6984375
+      },
+      {
+        "content": "due",
+        "duration": 0.3909374999999988,
+        "startsec": 110.6984375,
+        "endsec": 111.08937499999999
+      },
+      {
+        "content": "to",
+        "duration": 0.2606249999999992,
+        "startsec": 111.08937499999999,
+        "endsec": 111.35
+      }
+    ],
+    "id": "44",
+    "startsec": 107.18,
+    "endsec": 111.35,
+    "duration": 4.1699999999999875,
+    "content": "to erosion and rising sea levels due to"
+  },
+  {
+    "words": [
+      {
+        "content": "climate",
+        "duration": 1.728461538461539,
+        "startsec": 109.22,
+        "endsec": 110.94846153846154
+      },
+      {
+        "content": "change",
+        "duration": 1.481538461538462,
+        "startsec": 110.94846153846154,
+        "endsec": 112.43
+      },
+      {
+        "content": "that",
+        "duration": 0.987692307692308,
+        "startsec": 112.43,
+        "endsec": 113.41769230769232
+      },
+      {
+        "content": "process",
+        "duration": 1.728461538461539,
+        "startsec": 113.41769230769232,
+        "endsec": 115.14615384615387
+      },
+      {
+        "content": "is",
+        "duration": 0.493846153846154,
+        "startsec": 115.14615384615387,
+        "endsec": 115.64000000000001
+      }
+    ],
+    "id": "45",
+    "startsec": 109.22,
+    "endsec": 115.64,
+    "duration": 6.420000000000002,
+    "content": "climate change that process is"
+  },
+  {
+    "words": [
+      {
+        "content": "accelerating",
+        "duration": 2.403529411764707,
+        "startsec": 111.35,
+        "endsec": 113.7535294117647
+      },
+      {
+        "content": "since",
+        "duration": 1.0014705882352946,
+        "startsec": 113.7535294117647,
+        "endsec": 114.755
+      },
+      {
+        "content": "1855",
+        "duration": 0.8011764705882356,
+        "startsec": 114.755,
+        "endsec": 115.55617647058823
+      },
+      {
+        "content": "island",
+        "duration": 1.2017647058823535,
+        "startsec": 115.55617647058823,
+        "endsec": 116.75794117647058
+      },
+      {
+        "content": "has",
+        "duration": 0.6008823529411768,
+        "startsec": 116.75794117647058,
+        "endsec": 117.35882352941175
+      },
+      {
+        "content": "lost",
+        "duration": 0.8011764705882356,
+        "startsec": 117.35882352941175,
+        "endsec": 118.15999999999998
+      }
+    ],
+    "id": "46",
+    "startsec": 111.35,
+    "endsec": 118.16,
+    "duration": 6.810000000000002,
+    "content": "accelerating since 1855 island has lost"
+  },
+  {
+    "words": [
+      {
+        "content": "two-thirds",
+        "duration": 1.6714285714285688,
+        "startsec": 115.64,
+        "endsec": 117.31142857142856
+      },
+      {
+        "content": "of",
+        "duration": 0.33428571428571374,
+        "startsec": 117.31142857142856,
+        "endsec": 117.64571428571428
+      },
+      {
+        "content": "its",
+        "duration": 0.5014285714285706,
+        "startsec": 117.64571428571428,
+        "endsec": 118.14714285714285
+      },
+      {
+        "content": "land",
+        "duration": 0.6685714285714275,
+        "startsec": 118.14714285714285,
+        "endsec": 118.81571428571428
+      },
+      {
+        "content": "mass",
+        "duration": 0.6685714285714275,
+        "startsec": 118.81571428571428,
+        "endsec": 119.4842857142857
+      },
+      {
+        "content": "at",
+        "duration": 0.33428571428571374,
+        "startsec": 119.4842857142857,
+        "endsec": 119.81857142857142
+      },
+      {
+        "content": "its",
+        "duration": 0.5014285714285706,
+        "startsec": 119.81857142857142,
+        "endsec": 120.32
+      }
+    ],
+    "id": "47",
+    "startsec": 115.64,
+    "endsec": 120.32,
+    "duration": 4.679999999999993,
+    "content": "two-thirds of its land mass at its"
+  },
+  {
+    "words": [
+      {
+        "content": "current",
+        "duration": 0.8793750000000022,
+        "startsec": 118.16,
+        "endsec": 119.03937499999999
+      },
+      {
+        "content": "pace",
+        "duration": 0.5025000000000013,
+        "startsec": 119.03937499999999,
+        "endsec": 119.54187499999999
+      },
+      {
+        "content": "it",
+        "duration": 0.25125000000000064,
+        "startsec": 119.54187499999999,
+        "endsec": 119.79312499999999
+      },
+      {
+        "content": "could",
+        "duration": 0.6281250000000016,
+        "startsec": 119.79312499999999,
+        "endsec": 120.42124999999999
+      },
+      {
+        "content": "lose",
+        "duration": 0.5025000000000013,
+        "startsec": 120.42124999999999,
+        "endsec": 120.92374999999998
+      },
+      {
+        "content": "the",
+        "duration": 0.37687500000000096,
+        "startsec": 120.92374999999998,
+        "endsec": 121.30062499999998
+      },
+      {
+        "content": "rest",
+        "duration": 0.5025000000000013,
+        "startsec": 121.30062499999998,
+        "endsec": 121.80312499999998
+      },
+      {
+        "content": "in",
+        "duration": 0.25125000000000064,
+        "startsec": 121.80312499999998,
+        "endsec": 122.05437499999998
+      },
+      {
+        "content": "a",
+        "duration": 0.12562500000000032,
+        "startsec": 122.05437499999998,
+        "endsec": 122.17999999999998
+      }
+    ],
+    "id": "48",
+    "startsec": 118.16,
+    "endsec": 122.18,
+    "duration": 4.02000000000001,
+    "content": "current pace it could lose the rest in a"
+  },
+  {
+    "words": [
+      {
+        "content": "fraction",
+        "duration": 1.067586206896553,
+        "startsec": 120.32,
+        "endsec": 121.38758620689654
+      },
+      {
+        "content": "of",
+        "duration": 0.26689655172413823,
+        "startsec": 121.38758620689654,
+        "endsec": 121.65448275862069
+      },
+      {
+        "content": "the",
+        "duration": 0.4003448275862074,
+        "startsec": 121.65448275862069,
+        "endsec": 122.0548275862069
+      },
+      {
+        "content": "time",
+        "duration": 0.5337931034482765,
+        "startsec": 122.0548275862069,
+        "endsec": 122.58862068965517
+      },
+      {
+        "content": "the",
+        "duration": 0.4003448275862074,
+        "startsec": 122.58862068965517,
+        "endsec": 122.98896551724138
+      },
+      {
+        "content": "higher",
+        "duration": 0.8006896551724147,
+        "startsec": 122.98896551724138,
+        "endsec": 123.7896551724138
+      },
+      {
+        "content": "the",
+        "duration": 0.4003448275862074,
+        "startsec": 123.7896551724138,
+        "endsec": 124.19000000000001
+      }
+    ],
+    "id": "49",
+    "startsec": 120.32,
+    "endsec": 124.19,
+    "duration": 3.8700000000000045,
+    "content": "fraction of the time the higher the"
+  },
+  {
+    "words": [
+      {
+        "content": "water",
+        "duration": 0.7821428571428564,
+        "startsec": 122.18,
+        "endsec": 122.96214285714287
+      },
+      {
+        "content": "gets",
+        "duration": 0.625714285714285,
+        "startsec": 122.96214285714287,
+        "endsec": 123.58785714285715
+      },
+      {
+        "content": "the",
+        "duration": 0.46928571428571375,
+        "startsec": 123.58785714285715,
+        "endsec": 124.05714285714286
+      },
+      {
+        "content": "the",
+        "duration": 0.46928571428571375,
+        "startsec": 124.05714285714286,
+        "endsec": 124.52642857142858
+      },
+      {
+        "content": "more",
+        "duration": 0.625714285714285,
+        "startsec": 124.52642857142858,
+        "endsec": 125.15214285714286
+      },
+      {
+        "content": "land",
+        "duration": 0.625714285714285,
+        "startsec": 125.15214285714286,
+        "endsec": 125.77785714285714
+      },
+      {
+        "content": "it",
+        "duration": 0.3128571428571425,
+        "startsec": 125.77785714285714,
+        "endsec": 126.09071428571428
+      },
+      {
+        "content": "can",
+        "duration": 0.46928571428571375,
+        "startsec": 126.09071428571428,
+        "endsec": 126.56
+      }
+    ],
+    "id": "50",
+    "startsec": 122.18,
+    "endsec": 126.56,
+    "duration": 4.3799999999999955,
+    "content": "water gets the the more land it can"
+  },
+  {
+    "words": [
+      {
+        "content": "impact",
+        "duration": 0.9668571428571454,
+        "startsec": 124.19,
+        "endsec": 125.15685714285715
+      },
+      {
+        "content": "directly",
+        "duration": 1.2891428571428605,
+        "startsec": 125.15685714285715,
+        "endsec": 126.44600000000001
+      },
+      {
+        "content": "during",
+        "duration": 0.9668571428571454,
+        "startsec": 126.44600000000001,
+        "endsec": 127.41285714285716
+      },
+      {
+        "content": "every",
+        "duration": 0.8057142857142878,
+        "startsec": 127.41285714285716,
+        "endsec": 128.21857142857147
+      },
+      {
+        "content": "title",
+        "duration": 0.8057142857142878,
+        "startsec": 128.21857142857147,
+        "endsec": 129.02428571428575
+      },
+      {
+        "content": "cycle",
+        "duration": 0.8057142857142878,
+        "startsec": 129.02428571428575,
+        "endsec": 129.83000000000004
+      }
+    ],
+    "id": "51",
+    "startsec": 124.19,
+    "endsec": 129.83,
+    "duration": 5.640000000000015,
+    "content": "impact directly during every title cycle"
+  },
+  {
+    "words": [
+      {
+        "content": "so",
+        "duration": 0.32000000000000006,
+        "startsec": 126.56,
+        "endsec": 126.88
+      },
+      {
+        "content": "the",
+        "duration": 0.4800000000000001,
+        "startsec": 126.88,
+        "endsec": 127.36
+      },
+      {
+        "content": "island",
+        "duration": 0.9600000000000002,
+        "startsec": 127.36,
+        "endsec": 128.32
+      },
+      {
+        "content": "is",
+        "duration": 0.32000000000000006,
+        "startsec": 128.32,
+        "endsec": 128.64
+      },
+      {
+        "content": "both",
+        "duration": 0.6400000000000001,
+        "startsec": 128.64,
+        "endsec": 129.27999999999997
+      },
+      {
+        "content": "thinking",
+        "duration": 1.2800000000000002,
+        "startsec": 129.27999999999997,
+        "endsec": 130.55999999999997
+      },
+      {
+        "content": "and",
+        "duration": 0.4800000000000001,
+        "startsec": 130.55999999999997,
+        "endsec": 131.03999999999996
+      },
+      {
+        "content": "being",
+        "duration": 0.8000000000000002,
+        "startsec": 131.03999999999996,
+        "endsec": 131.83999999999997
+      }
+    ],
+    "id": "52",
+    "startsec": 126.56,
+    "endsec": 131.84,
+    "duration": 5.280000000000001,
+    "content": "so the island is both thinking and being"
+  },
+  {
+    "words": [
+      {
+        "content": "submerged",
+        "duration": 1.0554545454545388,
+        "startsec": 129.83,
+        "endsec": 130.88545454545456
+      },
+      {
+        "content": "the",
+        "duration": 0.35181818181817964,
+        "startsec": 130.88545454545456,
+        "endsec": 131.23727272727274
+      },
+      {
+        "content": "same",
+        "duration": 0.4690909090909062,
+        "startsec": 131.23727272727274,
+        "endsec": 131.70636363636365
+      },
+      {
+        "content": "time",
+        "duration": 0.4690909090909062,
+        "startsec": 131.70636363636365,
+        "endsec": 132.17545454545456
+      },
+      {
+        "content": "that",
+        "duration": 0.4690909090909062,
+        "startsec": 132.17545454545456,
+        "endsec": 132.64454545454547
+      },
+      {
+        "content": "yes",
+        "duration": 0.35181818181817964,
+        "startsec": 132.64454545454547,
+        "endsec": 132.99636363636364
+      },
+      {
+        "content": "that's",
+        "duration": 0.7036363636363593,
+        "startsec": 132.99636363636364,
+        "endsec": 133.7
+      }
+    ],
+    "id": "53",
+    "startsec": 129.83,
+    "endsec": 133.7,
+    "duration": 3.869999999999976,
+    "content": "submerged the same time that yes that's"
+  },
+  {
+    "words": [
+      {
+        "content": "correct",
+        "duration": 0.8590909090909055,
+        "startsec": 131.84,
+        "endsec": 132.6990909090909
+      },
+      {
+        "content": "this",
+        "duration": 0.49090909090908885,
+        "startsec": 132.6990909090909,
+        "endsec": 133.19
+      },
+      {
+        "content": "climate",
+        "duration": 0.8590909090909055,
+        "startsec": 133.19,
+        "endsec": 134.0490909090909
+      },
+      {
+        "content": "change",
+        "duration": 0.7363636363636333,
+        "startsec": 134.0490909090909,
+        "endsec": 134.7854545454545
+      },
+      {
+        "content": "this",
+        "duration": 0.49090909090908885,
+        "startsec": 134.7854545454545,
+        "endsec": 135.2763636363636
+      },
+      {
+        "content": "is",
+        "duration": 0.24545454545454443,
+        "startsec": 135.2763636363636,
+        "endsec": 135.52181818181816
+      },
+      {
+        "content": "the",
+        "duration": 0.36818181818181667,
+        "startsec": 135.52181818181816,
+        "endsec": 135.89
+      }
+    ],
+    "id": "54",
+    "startsec": 131.84,
+    "endsec": 135.89,
+    "duration": 4.049999999999983,
+    "content": "correct this climate change this is the"
+  },
+  {
+    "words": [
+      {
+        "content": "level",
+        "duration": 0.6906250000000025,
+        "startsec": 133.7,
+        "endsec": 134.390625
+      },
+      {
+        "content": "rise",
+        "duration": 0.552500000000002,
+        "startsec": 134.390625,
+        "endsec": 134.943125
+      },
+      {
+        "content": "happening",
+        "duration": 1.2431250000000045,
+        "startsec": 134.943125,
+        "endsec": 136.18625
+      },
+      {
+        "content": "right",
+        "duration": 0.6906250000000025,
+        "startsec": 136.18625,
+        "endsec": 136.876875
+      },
+      {
+        "content": "here",
+        "duration": 0.552500000000002,
+        "startsec": 136.876875,
+        "endsec": 137.42937500000002
+      },
+      {
+        "content": "right",
+        "duration": 0.6906250000000025,
+        "startsec": 137.42937500000002,
+        "endsec": 138.12000000000003
+      }
+    ],
+    "id": "55",
+    "startsec": 133.7,
+    "endsec": 138.12,
+    "duration": 4.420000000000016,
+    "content": "level rise happening right here right"
+  },
+  {
+    "words": [
+      {
+        "content": "now",
+        "duration": 4.610000000000014,
+        "startsec": 135.89,
+        "endsec": 140.5
+      }
+    ],
+    "id": "56",
+    "startsec": 135.89,
+    "endsec": 140.5,
+    "duration": 4.610000000000014,
+    "content": "now"
+  },
+  {
+    "words": [
+      {
+        "content": "[Music]",
+        "duration": 4.509999999999991,
+        "startsec": 138.12,
+        "endsec": 142.63
+      }
+    ],
+    "id": "57",
+    "startsec": 138.12,
+    "endsec": 142.63,
+    "duration": 4.509999999999991,
+    "content": "[Music]"
+  },
+  {
+    "words": [
+      {
+        "content": "Carol",
+        "duration": 0.845454545454543,
+        "startsec": 140.5,
+        "endsec": 141.34545454545454
+      },
+      {
+        "content": "prove",
+        "duration": 0.845454545454543,
+        "startsec": 141.34545454545454,
+        "endsec": 142.1909090909091
+      },
+      {
+        "content": "more",
+        "duration": 0.6763636363636345,
+        "startsec": 142.1909090909091,
+        "endsec": 142.86727272727273
+      },
+      {
+        "content": "is",
+        "duration": 0.33818181818181725,
+        "startsec": 142.86727272727273,
+        "endsec": 143.20545454545456
+      },
+      {
+        "content": "seventh",
+        "duration": 1.1836363636363603,
+        "startsec": 143.20545454545456,
+        "endsec": 144.38909090909092
+      },
+      {
+        "content": "generation",
+        "duration": 1.690909090909086,
+        "startsec": 144.38909090909092,
+        "endsec": 146.08
+      }
+    ],
+    "id": "58",
+    "startsec": 140.5,
+    "endsec": 146.07999999999998,
+    "duration": 5.579999999999984,
+    "content": "Carol prove more is seventh generation"
+  },
+  {
+    "words": [
+      {
+        "content": "Tangier",
+        "duration": 1.1179411764705895,
+        "startsec": 142.63,
+        "endsec": 143.7479411764706
+      },
+      {
+        "content": "some",
+        "duration": 0.6388235294117655,
+        "startsec": 143.7479411764706,
+        "endsec": 144.38676470588234
+      },
+      {
+        "content": "of",
+        "duration": 0.31941176470588273,
+        "startsec": 144.38676470588234,
+        "endsec": 144.70617647058822
+      },
+      {
+        "content": "her",
+        "duration": 0.47911764705882415,
+        "startsec": 144.70617647058822,
+        "endsec": 145.18529411764703
+      },
+      {
+        "content": "relatives",
+        "duration": 1.4373529411764725,
+        "startsec": 145.18529411764703,
+        "endsec": 146.6226470588235
+      },
+      {
+        "content": "once",
+        "duration": 0.6388235294117655,
+        "startsec": 146.6226470588235,
+        "endsec": 147.26147058823526
+      },
+      {
+        "content": "lived",
+        "duration": 0.7985294117647069,
+        "startsec": 147.26147058823526,
+        "endsec": 148.05999999999997
+      }
+    ],
+    "id": "59",
+    "startsec": 142.63,
+    "endsec": 148.06,
+    "duration": 5.430000000000007,
+    "content": "Tangier some of her relatives once lived"
+  },
+  {
+    "words": [
+      {
+        "content": "in",
+        "duration": 0.3174193548387107,
+        "startsec": 146.07999999999998,
+        "endsec": 146.3974193548387
+      },
+      {
+        "content": "the",
+        "duration": 0.476129032258066,
+        "startsec": 146.3974193548387,
+        "endsec": 146.87354838709675
+      },
+      {
+        "content": "town",
+        "duration": 0.6348387096774214,
+        "startsec": 146.87354838709675,
+        "endsec": 147.50838709677416
+      },
+      {
+        "content": "of",
+        "duration": 0.3174193548387107,
+        "startsec": 147.50838709677416,
+        "endsec": 147.82580645161286
+      },
+      {
+        "content": "Canaan",
+        "duration": 0.952258064516132,
+        "startsec": 147.82580645161286,
+        "endsec": 148.778064516129
+      },
+      {
+        "content": "on",
+        "duration": 0.3174193548387107,
+        "startsec": 148.778064516129,
+        "endsec": 149.0954838709677
+      },
+      {
+        "content": "the",
+        "duration": 0.476129032258066,
+        "startsec": 149.0954838709677,
+        "endsec": 149.57161290322577
+      },
+      {
+        "content": "north",
+        "duration": 0.7935483870967768,
+        "startsec": 149.57161290322577,
+        "endsec": 150.36516129032253
+      },
+      {
+        "content": "part",
+        "duration": 0.6348387096774214,
+        "startsec": 150.36516129032253,
+        "endsec": 150.99999999999994
+      }
+    ],
+    "id": "60",
+    "startsec": 146.07999999999998,
+    "endsec": 151,
+    "duration": 4.920000000000016,
+    "content": "in the town of Canaan on the north part"
+  },
+  {
+    "words": [
+      {
+        "content": "of",
+        "duration": 0.38322580645161275,
+        "startsec": 148.06,
+        "endsec": 148.4432258064516
+      },
+      {
+        "content": "the",
+        "duration": 0.5748387096774191,
+        "startsec": 148.4432258064516,
+        "endsec": 149.01806451612902
+      },
+      {
+        "content": "island",
+        "duration": 1.1496774193548382,
+        "startsec": 149.01806451612902,
+        "endsec": 150.16774193548386
+      },
+      {
+        "content": "today",
+        "duration": 0.9580645161290319,
+        "startsec": 150.16774193548386,
+        "endsec": 151.1258064516129
+      },
+      {
+        "content": "only",
+        "duration": 0.7664516129032255,
+        "startsec": 151.1258064516129,
+        "endsec": 151.89225806451614
+      },
+      {
+        "content": "traces",
+        "duration": 1.1496774193548382,
+        "startsec": 151.89225806451614,
+        "endsec": 153.041935483871
+      },
+      {
+        "content": "of",
+        "duration": 0.38322580645161275,
+        "startsec": 153.041935483871,
+        "endsec": 153.4251612903226
+      },
+      {
+        "content": "the",
+        "duration": 0.5748387096774191,
+        "startsec": 153.4251612903226,
+        "endsec": 154
+      }
+    ],
+    "id": "61",
+    "startsec": 148.06,
+    "endsec": 154,
+    "duration": 5.939999999999998,
+    "content": "of the island today only traces of the"
+  },
+  {
+    "words": [
+      {
+        "content": "community",
+        "duration": 1.728000000000004,
+        "startsec": 151,
+        "endsec": 152.728
+      },
+      {
+        "content": "remain",
+        "duration": 1.1520000000000026,
+        "startsec": 152.728,
+        "endsec": 153.88000000000002
+      },
+      {
+        "content": "I",
+        "duration": 0.19200000000000045,
+        "startsec": 153.88000000000002,
+        "endsec": 154.07200000000003
+      },
+      {
+        "content": "see",
+        "duration": 0.5760000000000013,
+        "startsec": 154.07200000000003,
+        "endsec": 154.64800000000002
+      },
+      {
+        "content": "bricks",
+        "duration": 1.1520000000000026,
+        "startsec": 154.64800000000002,
+        "endsec": 155.80000000000004
+      }
+    ],
+    "id": "62",
+    "startsec": 151,
+    "endsec": 155.8,
+    "duration": 4.800000000000011,
+    "content": "community remain I see bricks"
+  },
+  {
+    "words": [
+      {
+        "content": "well",
+        "duration": 0.5174999999999983,
+        "startsec": 154,
+        "endsec": 154.51749999999998
+      },
+      {
+        "content": "these",
+        "duration": 0.6468749999999979,
+        "startsec": 154.51749999999998,
+        "endsec": 155.16437499999998
+      },
+      {
+        "content": "are",
+        "duration": 0.3881249999999987,
+        "startsec": 155.16437499999998,
+        "endsec": 155.55249999999998
+      },
+      {
+        "content": "remnants",
+        "duration": 1.0349999999999966,
+        "startsec": 155.55249999999998,
+        "endsec": 156.58749999999998
+      },
+      {
+        "content": "from",
+        "duration": 0.5174999999999983,
+        "startsec": 156.58749999999998,
+        "endsec": 157.10499999999996
+      },
+      {
+        "content": "people's",
+        "duration": 1.0349999999999966,
+        "startsec": 157.10499999999996,
+        "endsec": 158.13999999999996
+      }
+    ],
+    "id": "63",
+    "startsec": 154,
+    "endsec": 158.14,
+    "duration": 4.139999999999986,
+    "content": "well these are remnants from people's"
+  },
+  {
+    "words": [
+      {
+        "content": "chimneys",
+        "duration": 1.2154838709677367,
+        "startsec": 155.8,
+        "endsec": 157.01548387096776
+      },
+      {
+        "content": "and",
+        "duration": 0.45580645161290123,
+        "startsec": 157.01548387096776,
+        "endsec": 157.47129032258067
+      },
+      {
+        "content": "foundations",
+        "duration": 1.671290322580638,
+        "startsec": 157.47129032258067,
+        "endsec": 159.1425806451613
+      },
+      {
+        "content": "back",
+        "duration": 0.6077419354838683,
+        "startsec": 159.1425806451613,
+        "endsec": 159.75032258064516
+      },
+      {
+        "content": "in",
+        "duration": 0.3038709677419342,
+        "startsec": 159.75032258064516,
+        "endsec": 160.0541935483871
+      },
+      {
+        "content": "the",
+        "duration": 0.45580645161290123,
+        "startsec": 160.0541935483871,
+        "endsec": 160.51000000000002
+      }
+    ],
+    "id": "64",
+    "startsec": 155.8,
+    "endsec": 160.51,
+    "duration": 4.7099999999999795,
+    "content": "chimneys and foundations back in the"
+  },
+  {
+    "words": [
+      {
+        "content": "twenties",
+        "duration": 1.2900000000000063,
+        "startsec": 158.14,
+        "endsec": 159.43
+      },
+      {
+        "content": "my",
+        "duration": 0.32250000000000156,
+        "startsec": 159.43,
+        "endsec": 159.7525
+      },
+      {
+        "content": "grandmother",
+        "duration": 1.7737500000000086,
+        "startsec": 159.7525,
+        "endsec": 161.52625
+      },
+      {
+        "content": "lived",
+        "duration": 0.8062500000000039,
+        "startsec": 161.52625,
+        "endsec": 162.3325
+      },
+      {
+        "content": "up",
+        "duration": 0.32250000000000156,
+        "startsec": 162.3325,
+        "endsec": 162.655
+      },
+      {
+        "content": "here",
+        "duration": 0.6450000000000031,
+        "startsec": 162.655,
+        "endsec": 163.3
+      }
+    ],
+    "id": "65",
+    "startsec": 158.14,
+    "endsec": 163.3,
+    "duration": 5.160000000000025,
+    "content": "twenties my grandmother lived up here"
+  },
+  {
+    "words": [
+      {
+        "content": "the",
+        "duration": 0.44181818181818305,
+        "startsec": 160.51,
+        "endsec": 160.95181818181817
+      },
+      {
+        "content": "northern",
+        "duration": 1.1781818181818215,
+        "startsec": 160.95181818181817,
+        "endsec": 162.13
+      },
+      {
+        "content": "part",
+        "duration": 0.5890909090909108,
+        "startsec": 162.13,
+        "endsec": 162.7190909090909
+      },
+      {
+        "content": "of",
+        "duration": 0.2945454545454554,
+        "startsec": 162.7190909090909,
+        "endsec": 163.01363636363635
+      },
+      {
+        "content": "the",
+        "duration": 0.44181818181818305,
+        "startsec": 163.01363636363635,
+        "endsec": 163.45545454545453
+      },
+      {
+        "content": "island",
+        "duration": 0.8836363636363661,
+        "startsec": 163.45545454545453,
+        "endsec": 164.33909090909088
+      },
+      {
+        "content": "known",
+        "duration": 0.7363636363636384,
+        "startsec": 164.33909090909088,
+        "endsec": 165.07545454545453
+      },
+      {
+        "content": "as",
+        "duration": 0.2945454545454554,
+        "startsec": 165.07545454545453,
+        "endsec": 165.36999999999998
+      }
+    ],
+    "id": "66",
+    "startsec": 160.51,
+    "endsec": 165.37,
+    "duration": 4.860000000000014,
+    "content": "the northern part of the island known as"
+  },
+  {
+    "words": [
+      {
+        "content": "the",
+        "duration": 0.4903448275862049,
+        "startsec": 163.3,
+        "endsec": 163.7903448275862
+      },
+      {
+        "content": "upwards",
+        "duration": 1.1441379310344781,
+        "startsec": 163.7903448275862,
+        "endsec": 164.93448275862067
+      },
+      {
+        "content": "also",
+        "duration": 0.6537931034482732,
+        "startsec": 164.93448275862067,
+        "endsec": 165.58827586206894
+      },
+      {
+        "content": "bears",
+        "duration": 0.8172413793103416,
+        "startsec": 165.58827586206894,
+        "endsec": 166.40551724137927
+      },
+      {
+        "content": "the",
+        "duration": 0.4903448275862049,
+        "startsec": 166.40551724137927,
+        "endsec": 166.89586206896547
+      },
+      {
+        "content": "brunt",
+        "duration": 0.8172413793103416,
+        "startsec": 166.89586206896547,
+        "endsec": 167.7131034482758
+      },
+      {
+        "content": "of",
+        "duration": 0.3268965517241366,
+        "startsec": 167.7131034482758,
+        "endsec": 168.03999999999994
+      }
+    ],
+    "id": "67",
+    "startsec": 163.3,
+    "endsec": 168.04,
+    "duration": 4.739999999999981,
+    "content": "the upwards also bears the brunt of"
+  },
+  {
+    "words": [
+      {
+        "content": "increasing",
+        "duration": 1.5000000000000036,
+        "startsec": 165.37,
+        "endsec": 166.87
+      },
+      {
+        "content": "erosion",
+        "duration": 1.0500000000000025,
+        "startsec": 166.87,
+        "endsec": 167.92000000000002
+      },
+      {
+        "content": "how",
+        "duration": 0.45000000000000107,
+        "startsec": 167.92000000000002,
+        "endsec": 168.37
+      },
+      {
+        "content": "do",
+        "duration": 0.3000000000000007,
+        "startsec": 168.37,
+        "endsec": 168.67000000000002
+      },
+      {
+        "content": "you",
+        "duration": 0.45000000000000107,
+        "startsec": 168.67000000000002,
+        "endsec": 169.12
+      },
+      {
+        "content": "tell",
+        "duration": 0.6000000000000014,
+        "startsec": 169.12,
+        "endsec": 169.72
+      },
+      {
+        "content": "the",
+        "duration": 0.45000000000000107,
+        "startsec": 169.72,
+        "endsec": 170.17
+      }
+    ],
+    "id": "68",
+    "startsec": 165.37,
+    "endsec": 170.17000000000002,
+    "duration": 4.800000000000011,
+    "content": "increasing erosion how do you tell the"
+  },
+  {
+    "words": [
+      {
+        "content": "signs",
+        "duration": 0.7306451612903228,
+        "startsec": 168.04,
+        "endsec": 168.7706451612903
+      },
+      {
+        "content": "of",
+        "duration": 0.2922580645161291,
+        "startsec": 168.7706451612903,
+        "endsec": 169.06290322580642
+      },
+      {
+        "content": "corrosion",
+        "duration": 1.3151612903225811,
+        "startsec": 169.06290322580642,
+        "endsec": 170.378064516129
+      },
+      {
+        "content": "this",
+        "duration": 0.5845161290322582,
+        "startsec": 170.378064516129,
+        "endsec": 170.96258064516127
+      },
+      {
+        "content": "point",
+        "duration": 0.7306451612903228,
+        "startsec": 170.96258064516127,
+        "endsec": 171.69322580645158
+      },
+      {
+        "content": "of",
+        "duration": 0.2922580645161291,
+        "startsec": 171.69322580645158,
+        "endsec": 171.9854838709677
+      },
+      {
+        "content": "line",
+        "duration": 0.5845161290322582,
+        "startsec": 171.9854838709677,
+        "endsec": 172.56999999999996
+      }
+    ],
+    "id": "69",
+    "startsec": 168.04,
+    "endsec": 172.57,
+    "duration": 4.530000000000001,
+    "content": "signs of corrosion this point of line"
+  },
+  {
+    "words": [
+      {
+        "content": "right",
+        "duration": 0.566129032258063,
+        "startsec": 170.17000000000002,
+        "endsec": 170.73612903225808
+      },
+      {
+        "content": "here",
+        "duration": 0.4529032258064504,
+        "startsec": 170.73612903225808,
+        "endsec": 171.18903225806451
+      },
+      {
+        "content": "at",
+        "duration": 0.2264516129032252,
+        "startsec": 171.18903225806451,
+        "endsec": 171.41548387096773
+      },
+      {
+        "content": "this",
+        "duration": 0.4529032258064504,
+        "startsec": 171.41548387096773,
+        "endsec": 171.86838709677417
+      },
+      {
+        "content": "point",
+        "duration": 0.566129032258063,
+        "startsec": 171.86838709677417,
+        "endsec": 172.43451612903223
+      },
+      {
+        "content": "of",
+        "duration": 0.2264516129032252,
+        "startsec": 172.43451612903223,
+        "endsec": 172.66096774193545
+      },
+      {
+        "content": "line",
+        "duration": 0.4529032258064504,
+        "startsec": 172.66096774193545,
+        "endsec": 173.1138709677419
+      },
+      {
+        "content": "which",
+        "duration": 0.566129032258063,
+        "startsec": 173.1138709677419,
+        "endsec": 173.67999999999995
+      }
+    ],
+    "id": "70",
+    "startsec": 170.17000000000002,
+    "endsec": 173.68,
+    "duration": 3.509999999999991,
+    "content": "right here at this point of line which"
+  },
+  {
+    "words": [
+      {
+        "content": "is",
+        "duration": 0.4120000000000004,
+        "startsec": 172.57,
+        "endsec": 172.982
+      },
+      {
+        "content": "now",
+        "duration": 0.6180000000000008,
+        "startsec": 172.982,
+        "endsec": 173.6
+      },
+      {
+        "content": "under",
+        "duration": 1.0300000000000011,
+        "startsec": 173.6,
+        "endsec": 174.63
+      },
+      {
+        "content": "water",
+        "duration": 1.0300000000000011,
+        "startsec": 174.63,
+        "endsec": 175.66
+      }
+    ],
+    "id": "71",
+    "startsec": 172.57,
+    "endsec": 175.66,
+    "duration": 3.0900000000000034,
+    "content": "is now under water"
+  },
+  {
+    "words": [
+      {
+        "content": "this",
+        "duration": 0.6116129032258076,
+        "startsec": 173.68,
+        "endsec": 174.29161290322583
+      },
+      {
+        "content": "was",
+        "duration": 0.4587096774193557,
+        "startsec": 174.29161290322583,
+        "endsec": 174.7503225806452
+      },
+      {
+        "content": "like",
+        "duration": 0.6116129032258076,
+        "startsec": 174.7503225806452,
+        "endsec": 175.361935483871
+      },
+      {
+        "content": "that",
+        "duration": 0.6116129032258076,
+        "startsec": 175.361935483871,
+        "endsec": 175.97354838709683
+      },
+      {
+        "content": "was",
+        "duration": 0.4587096774193557,
+        "startsec": 175.97354838709683,
+        "endsec": 176.4322580645162
+      },
+      {
+        "content": "lying",
+        "duration": 0.7645161290322595,
+        "startsec": 176.4322580645162,
+        "endsec": 177.19677419354846
+      },
+      {
+        "content": "last",
+        "duration": 0.6116129032258076,
+        "startsec": 177.19677419354846,
+        "endsec": 177.80838709677428
+      },
+      {
+        "content": "year",
+        "duration": 0.6116129032258076,
+        "startsec": 177.80838709677428,
+        "endsec": 178.4200000000001
+      }
+    ],
+    "id": "72",
+    "startsec": 173.68,
+    "endsec": 178.42000000000002,
+    "duration": 4.740000000000009,
+    "content": "this was like that was lying last year"
+  },
+  {
+    "words": [
+      {
+        "content": "so",
+        "duration": 0.4384615384615398,
+        "startsec": 175.66,
+        "endsec": 176.09846153846155
+      },
+      {
+        "content": "what",
+        "duration": 0.8769230769230796,
+        "startsec": 176.09846153846155,
+        "endsec": 176.97538461538463
+      },
+      {
+        "content": "like",
+        "duration": 0.8769230769230796,
+        "startsec": 176.97538461538463,
+        "endsec": 177.8523076923077
+      },
+      {
+        "content": "30",
+        "duration": 0.4384615384615398,
+        "startsec": 177.8523076923077,
+        "endsec": 178.29076923076926
+      },
+      {
+        "content": "feet",
+        "duration": 0.8769230769230796,
+        "startsec": 178.29076923076926,
+        "endsec": 179.16769230769233
+      },
+      {
+        "content": "35",
+        "duration": 0.4384615384615398,
+        "startsec": 179.16769230769233,
+        "endsec": 179.6061538461539
+      },
+      {
+        "content": "feet",
+        "duration": 0.8769230769230796,
+        "startsec": 179.6061538461539,
+        "endsec": 180.48307692307696
+      },
+      {
+        "content": "go",
+        "duration": 0.4384615384615398,
+        "startsec": 180.48307692307696,
+        "endsec": 180.92153846153852
+      },
+      {
+        "content": "on",
+        "duration": 0.4384615384615398,
+        "startsec": 180.92153846153852,
+        "endsec": 181.36000000000007
+      }
+    ],
+    "id": "73",
+    "startsec": 175.66,
+    "endsec": 181.36,
+    "duration": 5.700000000000017,
+    "content": "so what like 30 feet 35 feet go on"
+  },
+  {
+    "words": [
+      {
+        "content": "between",
+        "duration": 1.1454545454545406,
+        "startsec": 178.42000000000002,
+        "endsec": 179.56545454545454
+      },
+      {
+        "content": "hear",
+        "duration": 0.6545454545454518,
+        "startsec": 179.56545454545454,
+        "endsec": 180.22
+      },
+      {
+        "content": "from",
+        "duration": 0.6545454545454518,
+        "startsec": 180.22,
+        "endsec": 180.87454545454545
+      },
+      {
+        "content": "here",
+        "duration": 0.6545454545454518,
+        "startsec": 180.87454545454545,
+        "endsec": 181.5290909090909
+      },
+      {
+        "content": "to",
+        "duration": 0.3272727272727259,
+        "startsec": 181.5290909090909,
+        "endsec": 181.85636363636362
+      },
+      {
+        "content": "here",
+        "duration": 0.6545454545454518,
+        "startsec": 181.85636363636362,
+        "endsec": 182.51090909090908
+      },
+      {
+        "content": "there",
+        "duration": 0.8181818181818148,
+        "startsec": 182.51090909090908,
+        "endsec": 183.3290909090909
+      },
+      {
+        "content": "was",
+        "duration": 0.49090909090908885,
+        "startsec": 183.3290909090909,
+        "endsec": 183.82
+      }
+    ],
+    "id": "74",
+    "startsec": 178.42000000000002,
+    "endsec": 183.82,
+    "duration": 5.399999999999977,
+    "content": "between hear from here to here there was"
+  },
+  {
+    "words": [
+      {
+        "content": "no",
+        "duration": 0.3735483870967737,
+        "startsec": 181.36,
+        "endsec": 181.7335483870968
+      },
+      {
+        "content": "water",
+        "duration": 0.9338709677419341,
+        "startsec": 181.7335483870968,
+        "endsec": 182.66741935483873
+      },
+      {
+        "content": "last",
+        "duration": 0.7470967741935474,
+        "startsec": 182.66741935483873,
+        "endsec": 183.41451612903228
+      },
+      {
+        "content": "year",
+        "duration": 0.7470967741935474,
+        "startsec": 183.41451612903228,
+        "endsec": 184.16161290322583
+      },
+      {
+        "content": "an",
+        "duration": 0.3735483870967737,
+        "startsec": 184.16161290322583,
+        "endsec": 184.5351612903226
+      },
+      {
+        "content": "Outland",
+        "duration": 1.3074193548387079,
+        "startsec": 184.5351612903226,
+        "endsec": 185.84258064516132
+      },
+      {
+        "content": "October",
+        "duration": 1.3074193548387079,
+        "startsec": 185.84258064516132,
+        "endsec": 187.15000000000003
+      }
+    ],
+    "id": "75",
+    "startsec": 181.36,
+    "endsec": 187.15,
+    "duration": 5.789999999999992,
+    "content": "no water last year an Outland October"
+  },
+  {
+    "words": [
+      {
+        "content": "was",
+        "duration": 0.5462068965517243,
+        "startsec": 183.82,
+        "endsec": 184.36620689655172
+      },
+      {
+        "content": "lined",
+        "duration": 0.9103448275862072,
+        "startsec": 184.36620689655172,
+        "endsec": 185.27655172413793
+      },
+      {
+        "content": "if",
+        "duration": 0.36413793103448283,
+        "startsec": 185.27655172413793,
+        "endsec": 185.64068965517242
+      },
+      {
+        "content": "we",
+        "duration": 0.36413793103448283,
+        "startsec": 185.64068965517242,
+        "endsec": 186.00482758620691
+      },
+      {
+        "content": "don't",
+        "duration": 0.9103448275862072,
+        "startsec": 186.00482758620691,
+        "endsec": 186.91517241379313
+      },
+      {
+        "content": "get",
+        "duration": 0.5462068965517243,
+        "startsec": 186.91517241379313,
+        "endsec": 187.46137931034485
+      },
+      {
+        "content": "to",
+        "duration": 0.36413793103448283,
+        "startsec": 187.46137931034485,
+        "endsec": 187.82551724137934
+      },
+      {
+        "content": "say",
+        "duration": 0.5462068965517243,
+        "startsec": 187.82551724137934,
+        "endsec": 188.37172413793107
+      },
+      {
+        "content": "well",
+        "duration": 0.7282758620689657,
+        "startsec": 188.37172413793107,
+        "endsec": 189.10000000000002
+      }
+    ],
+    "id": "76",
+    "startsec": 183.82,
+    "endsec": 189.1,
+    "duration": 5.280000000000001,
+    "content": "was lined if we don't get to say well"
+  },
+  {
+    "words": [
+      {
+        "content": "this",
+        "duration": 0.5736249999999998,
+        "startsec": 187.15,
+        "endsec": 187.723625
+      },
+      {
+        "content": "is",
+        "duration": 0.2868124999999999,
+        "startsec": 187.723625,
+        "endsec": 188.0104375
+      },
+      {
+        "content": "what",
+        "duration": 0.5736249999999998,
+        "startsec": 188.0104375,
+        "endsec": 188.5840625
+      },
+      {
+        "content": "you'll",
+        "duration": 0.8604374999999997,
+        "startsec": 188.5840625,
+        "endsec": 189.44449999999998
+      },
+      {
+        "content": "find",
+        "duration": 0.5736249999999998,
+        "startsec": 189.44449999999998,
+        "endsec": 190.01812499999997
+      },
+      {
+        "content": "on",
+        "duration": 0.2868124999999999,
+        "startsec": 190.01812499999997,
+        "endsec": 190.30493749999997
+      },
+      {
+        "content": "Tangier",
+        "duration": 1.0038437499999997,
+        "startsec": 190.30493749999997,
+        "endsec": 191.30878124999995
+      },
+      {
+        "content": "in",
+        "duration": 0.2868124999999999,
+        "startsec": 191.30878124999995,
+        "endsec": 191.59559374999995
+      },
+      {
+        "content": "a",
+        "duration": 0.14340624999999996,
+        "startsec": 191.59559374999995,
+        "endsec": 191.73899999999995
+      }
+    ],
+    "id": "77",
+    "startsec": 187.15,
+    "endsec": 191.739,
+    "duration": 4.588999999999999,
+    "content": "this is what you'll find on Tangier in a"
+  },
+  {
+    "words": [
+      {
+        "content": "few",
+        "duration": 0.42000000000000043,
+        "startsec": 189.1,
+        "endsec": 189.51999999999998
+      },
+      {
+        "content": "years",
+        "duration": 0.7000000000000007,
+        "startsec": 189.51999999999998,
+        "endsec": 190.21999999999997
+      },
+      {
+        "content": "remnants",
+        "duration": 1.1200000000000012,
+        "startsec": 190.21999999999997,
+        "endsec": 191.33999999999997
+      },
+      {
+        "content": "of",
+        "duration": 0.2800000000000003,
+        "startsec": 191.33999999999997,
+        "endsec": 191.61999999999998
+      },
+      {
+        "content": "hands",
+        "duration": 0.7000000000000007,
+        "startsec": 191.61999999999998,
+        "endsec": 192.31999999999996
+      },
+      {
+        "content": "right",
+        "duration": 0.7000000000000007,
+        "startsec": 192.31999999999996,
+        "endsec": 193.01999999999995
+      },
+      {
+        "content": "in",
+        "duration": 0.2800000000000003,
+        "startsec": 193.01999999999995,
+        "endsec": 193.29999999999995
+      },
+      {
+        "content": "the",
+        "duration": 0.42000000000000043,
+        "startsec": 193.29999999999995,
+        "endsec": 193.71999999999994
+      }
+    ],
+    "id": "78",
+    "startsec": 189.1,
+    "endsec": 193.72,
+    "duration": 4.6200000000000045,
+    "content": "few years remnants of hands right in the"
+  },
+  {
+    "words": [
+      {
+        "content": "area",
+        "duration": 0.4761333333333331,
+        "startsec": 191.739,
+        "endsec": 192.21513333333334
+      },
+      {
+        "content": "where",
+        "duration": 0.5951666666666663,
+        "startsec": 192.21513333333334,
+        "endsec": 192.8103
+      },
+      {
+        "content": "you",
+        "duration": 0.3570999999999998,
+        "startsec": 192.8103,
+        "endsec": 193.16740000000001
+      },
+      {
+        "content": "live",
+        "duration": 0.4761333333333331,
+        "startsec": 193.16740000000001,
+        "endsec": 193.64353333333335
+      },
+      {
+        "content": "where",
+        "duration": 0.5951666666666663,
+        "startsec": 193.64353333333335,
+        "endsec": 194.23870000000002
+      },
+      {
+        "content": "I",
+        "duration": 0.11903333333333327,
+        "startsec": 194.23870000000002,
+        "endsec": 194.35773333333336
+      },
+      {
+        "content": "live",
+        "duration": 0.4761333333333331,
+        "startsec": 194.35773333333336,
+        "endsec": 194.8338666666667
+      },
+      {
+        "content": "yeah",
+        "duration": 0.4761333333333331,
+        "startsec": 194.8338666666667,
+        "endsec": 195.31000000000003
+      }
+    ],
+    "id": "79",
+    "startsec": 191.739,
+    "endsec": 195.31,
+    "duration": 3.570999999999998,
+    "content": "area where you live where I live yeah"
+  },
+  {
+    "words": [
+      {
+        "content": "many",
+        "duration": 0.4036363636363652,
+        "startsec": 193.72,
+        "endsec": 194.12363636363636
+      },
+      {
+        "content": "residents",
+        "duration": 0.9081818181818215,
+        "startsec": 194.12363636363636,
+        "endsec": 195.03181818181818
+      },
+      {
+        "content": "believe",
+        "duration": 0.7063636363636391,
+        "startsec": 195.03181818181818,
+        "endsec": 195.73818181818183
+      },
+      {
+        "content": "that",
+        "duration": 0.4036363636363652,
+        "startsec": 195.73818181818183,
+        "endsec": 196.1418181818182
+      },
+      {
+        "content": "building",
+        "duration": 0.8072727272727304,
+        "startsec": 196.1418181818182,
+        "endsec": 196.94909090909093
+      },
+      {
+        "content": "a",
+        "duration": 0.1009090909090913,
+        "startsec": 196.94909090909093,
+        "endsec": 197.05
+      }
+    ],
+    "id": "80",
+    "startsec": 193.72,
+    "endsec": 197.05,
+    "duration": 3.3300000000000125,
+    "content": "many residents believe that building a"
+  },
+  {
+    "words": [
+      {
+        "content": "sea",
+        "duration": 0.45,
+        "startsec": 195.31,
+        "endsec": 195.76
+      },
+      {
+        "content": "wall",
+        "duration": 0.6,
+        "startsec": 195.76,
+        "endsec": 196.35999999999999
+      },
+      {
+        "content": "around",
+        "duration": 0.9,
+        "startsec": 196.35999999999999,
+        "endsec": 197.26
+      },
+      {
+        "content": "the",
+        "duration": 0.45,
+        "startsec": 197.26,
+        "endsec": 197.70999999999998
+      },
+      {
+        "content": "island",
+        "duration": 0.9,
+        "startsec": 197.70999999999998,
+        "endsec": 198.60999999999999
+      },
+      {
+        "content": "could",
+        "duration": 0.75,
+        "startsec": 198.60999999999999,
+        "endsec": 199.35999999999999
+      },
+      {
+        "content": "buy",
+        "duration": 0.45,
+        "startsec": 199.35999999999999,
+        "endsec": 199.80999999999997
+      }
+    ],
+    "id": "81",
+    "startsec": 195.31,
+    "endsec": 199.81,
+    "duration": 4.5,
+    "content": "sea wall around the island could buy"
+  },
+  {
+    "words": [
+      {
+        "content": "Tangier",
+        "duration": 1.095937499999998,
+        "startsec": 197.05,
+        "endsec": 198.1459375
+      },
+      {
+        "content": "some",
+        "duration": 0.6262499999999989,
+        "startsec": 198.1459375,
+        "endsec": 198.7721875
+      },
+      {
+        "content": "much-needed",
+        "duration": 1.7221874999999969,
+        "startsec": 198.7721875,
+        "endsec": 200.494375
+      },
+      {
+        "content": "time",
+        "duration": 0.6262499999999989,
+        "startsec": 200.494375,
+        "endsec": 201.120625
+      },
+      {
+        "content": "though",
+        "duration": 0.9393749999999983,
+        "startsec": 201.120625,
+        "endsec": 202.06
+      }
+    ],
+    "id": "82",
+    "startsec": 197.05,
+    "endsec": 202.06,
+    "duration": 5.009999999999991,
+    "content": "Tangier some much-needed time though"
+  },
+  {
+    "words": [
+      {
+        "content": "with",
+        "duration": 0.9771428571428575,
+        "startsec": 199.81,
+        "endsec": 200.78714285714287
+      },
+      {
+        "content": "a",
+        "duration": 0.24428571428571438,
+        "startsec": 200.78714285714287,
+        "endsec": 201.0314285714286
+      },
+      {
+        "content": "30",
+        "duration": 0.48857142857142877,
+        "startsec": 201.0314285714286,
+        "endsec": 201.52
+      },
+      {
+        "content": "million",
+        "duration": 1.7100000000000009,
+        "startsec": 201.52,
+        "endsec": 203.23000000000002
+      },
+      {
+        "content": "dollar",
+        "duration": 1.4657142857142864,
+        "startsec": 203.23000000000002,
+        "endsec": 204.6957142857143
+      },
+      {
+        "content": "price",
+        "duration": 1.221428571428572,
+        "startsec": 204.6957142857143,
+        "endsec": 205.91714285714286
+      },
+      {
+        "content": "tag",
+        "duration": 0.7328571428571432,
+        "startsec": 205.91714285714286,
+        "endsec": 206.65
+      }
+    ],
+    "id": "83",
+    "startsec": 199.81,
+    "endsec": 206.65,
+    "duration": 6.840000000000003,
+    "content": "with a 30 million dollar price tag"
+  },
+  {
+    "words": [
+      {
+        "content": "that's",
+        "duration": 1.325454545454544,
+        "startsec": 202.06,
+        "endsec": 203.38545454545454
+      },
+      {
+        "content": "a",
+        "duration": 0.22090909090909067,
+        "startsec": 203.38545454545454,
+        "endsec": 203.60636363636362
+      },
+      {
+        "content": "big",
+        "duration": 0.662727272727272,
+        "startsec": 203.60636363636362,
+        "endsec": 204.2690909090909
+      },
+      {
+        "content": "if",
+        "duration": 0.44181818181818133,
+        "startsec": 204.2690909090909,
+        "endsec": 204.71090909090907
+      },
+      {
+        "content": "James",
+        "duration": 1.1045454545454534,
+        "startsec": 204.71090909090907,
+        "endsec": 205.81545454545451
+      },
+      {
+        "content": "occur",
+        "duration": 1.1045454545454534,
+        "startsec": 205.81545454545451,
+        "endsec": 206.91999999999996
+      },
+      {
+        "content": "Eskridge",
+        "duration": 1.7672727272727253,
+        "startsec": 206.91999999999996,
+        "endsec": 208.68727272727267
+      },
+      {
+        "content": "has",
+        "duration": 0.662727272727272,
+        "startsec": 208.68727272727267,
+        "endsec": 209.34999999999994
+      }
+    ],
+    "id": "84",
+    "startsec": 202.06,
+    "endsec": 209.35,
+    "duration": 7.289999999999992,
+    "content": "that's a big if James occur Eskridge has"
+  },
+  {
+    "words": [
+      {
+        "content": "been",
+        "duration": 0.6262499999999989,
+        "startsec": 206.65,
+        "endsec": 207.27625
+      },
+      {
+        "content": "mayor",
+        "duration": 0.7828124999999986,
+        "startsec": 207.27625,
+        "endsec": 208.0590625
+      },
+      {
+        "content": "of",
+        "duration": 0.31312499999999943,
+        "startsec": 208.0590625,
+        "endsec": 208.3721875
+      },
+      {
+        "content": "Tangier",
+        "duration": 1.095937499999998,
+        "startsec": 208.3721875,
+        "endsec": 209.468125
+      },
+      {
+        "content": "49",
+        "duration": 0.31312499999999943,
+        "startsec": 209.468125,
+        "endsec": 209.78125
+      },
+      {
+        "content": "years",
+        "duration": 0.7828124999999986,
+        "startsec": 209.78125,
+        "endsec": 210.5640625
+      },
+      {
+        "content": "they're",
+        "duration": 1.095937499999998,
+        "startsec": 210.5640625,
+        "endsec": 211.66
+      }
+    ],
+    "id": "85",
+    "startsec": 206.65,
+    "endsec": 211.66,
+    "duration": 5.009999999999991,
+    "content": "been mayor of Tangier 49 years they're"
+  },
+  {
+    "words": [
+      {
+        "content": "gonna",
+        "duration": 0.7209677419354836,
+        "startsec": 209.35,
+        "endsec": 210.07096774193548
+      },
+      {
+        "content": "be",
+        "duration": 0.28838709677419344,
+        "startsec": 210.07096774193548,
+        "endsec": 210.35935483870966
+      },
+      {
+        "content": "people",
+        "duration": 0.8651612903225804,
+        "startsec": 210.35935483870966,
+        "endsec": 211.22451612903225
+      },
+      {
+        "content": "who",
+        "duration": 0.4325806451612902,
+        "startsec": 211.22451612903225,
+        "endsec": 211.65709677419355
+      },
+      {
+        "content": "are",
+        "duration": 0.4325806451612902,
+        "startsec": 211.65709677419355,
+        "endsec": 212.08967741935484
+      },
+      {
+        "content": "going",
+        "duration": 0.7209677419354836,
+        "startsec": 212.08967741935484,
+        "endsec": 212.81064516129032
+      },
+      {
+        "content": "to",
+        "duration": 0.28838709677419344,
+        "startsec": 212.81064516129032,
+        "endsec": 213.0990322580645
+      },
+      {
+        "content": "react",
+        "duration": 0.7209677419354836,
+        "startsec": 213.0990322580645,
+        "endsec": 213.82
+      }
+    ],
+    "id": "86",
+    "startsec": 209.35,
+    "endsec": 213.82,
+    "duration": 4.469999999999999,
+    "content": "gonna be people who are going to react"
+  },
+  {
+    "words": [
+      {
+        "content": "to",
+        "duration": 0.2836363636363641,
+        "startsec": 211.66,
+        "endsec": 211.94363636363636
+      },
+      {
+        "content": "the",
+        "duration": 0.4254545454545461,
+        "startsec": 211.94363636363636,
+        "endsec": 212.36909090909091
+      },
+      {
+        "content": "situation",
+        "duration": 1.2763636363636381,
+        "startsec": 212.36909090909091,
+        "endsec": 213.64545454545456
+      },
+      {
+        "content": "on",
+        "duration": 0.2836363636363641,
+        "startsec": 213.64545454545456,
+        "endsec": 213.92909090909092
+      },
+      {
+        "content": "Tangier",
+        "duration": 0.9927272727272742,
+        "startsec": 213.92909090909092,
+        "endsec": 214.9218181818182
+      },
+      {
+        "content": "and",
+        "duration": 0.4254545454545461,
+        "startsec": 214.9218181818182,
+        "endsec": 215.34727272727275
+      },
+      {
+        "content": "say",
+        "duration": 0.4254545454545461,
+        "startsec": 215.34727272727275,
+        "endsec": 215.7727272727273
+      },
+      {
+        "content": "this",
+        "duration": 0.5672727272727282,
+        "startsec": 215.7727272727273,
+        "endsec": 216.34000000000003
+      }
+    ],
+    "id": "87",
+    "startsec": 211.66,
+    "endsec": 216.34,
+    "duration": 4.680000000000007,
+    "content": "to the situation on Tangier and say this"
+  },
+  {
+    "words": [
+      {
+        "content": "place",
+        "duration": 0.8080645161290307,
+        "startsec": 213.82,
+        "endsec": 214.62806451612903
+      },
+      {
+        "content": "is",
+        "duration": 0.3232258064516123,
+        "startsec": 214.62806451612903,
+        "endsec": 214.95129032258063
+      },
+      {
+        "content": "beautiful",
+        "duration": 1.4545161290322555,
+        "startsec": 214.95129032258063,
+        "endsec": 216.40580645161288
+      },
+      {
+        "content": "there",
+        "duration": 0.8080645161290307,
+        "startsec": 216.40580645161288,
+        "endsec": 217.2138709677419
+      },
+      {
+        "content": "are",
+        "duration": 0.48483870967741843,
+        "startsec": 217.2138709677419,
+        "endsec": 217.69870967741932
+      },
+      {
+        "content": "only",
+        "duration": 0.6464516129032246,
+        "startsec": 217.69870967741932,
+        "endsec": 218.34516129032255
+      },
+      {
+        "content": "500",
+        "duration": 0.48483870967741843,
+        "startsec": 218.34516129032255,
+        "endsec": 218.82999999999996
+      }
+    ],
+    "id": "88",
+    "startsec": 213.82,
+    "endsec": 218.82999999999998,
+    "duration": 5.009999999999991,
+    "content": "place is beautiful there are only 500"
+  },
+  {
+    "words": [
+      {
+        "content": "people",
+        "duration": 0.738620689655171,
+        "startsec": 216.34,
+        "endsec": 217.07862068965517
+      },
+      {
+        "content": "here",
+        "duration": 0.49241379310344735,
+        "startsec": 217.07862068965517,
+        "endsec": 217.57103448275862
+      },
+      {
+        "content": "is",
+        "duration": 0.24620689655172368,
+        "startsec": 217.57103448275862,
+        "endsec": 217.81724137931033
+      },
+      {
+        "content": "it",
+        "duration": 0.24620689655172368,
+        "startsec": 217.81724137931033,
+        "endsec": 218.06344827586204
+      },
+      {
+        "content": "really",
+        "duration": 0.738620689655171,
+        "startsec": 218.06344827586204,
+        "endsec": 218.8020689655172
+      },
+      {
+        "content": "worth",
+        "duration": 0.6155172413793092,
+        "startsec": 218.8020689655172,
+        "endsec": 219.41758620689652
+      },
+      {
+        "content": "it",
+        "duration": 0.24620689655172368,
+        "startsec": 219.41758620689652,
+        "endsec": 219.66379310344823
+      },
+      {
+        "content": "to",
+        "duration": 0.24620689655172368,
+        "startsec": 219.66379310344823,
+        "endsec": 219.90999999999994
+      }
+    ],
+    "id": "89",
+    "startsec": 216.34,
+    "endsec": 219.91,
+    "duration": 3.569999999999993,
+    "content": "people here is it really worth it to"
+  },
+  {
+    "words": [
+      {
+        "content": "save",
+        "duration": 0.7015384615384707,
+        "startsec": 218.82999999999998,
+        "endsec": 219.53153846153845
+      },
+      {
+        "content": "the",
+        "duration": 0.526153846153853,
+        "startsec": 219.53153846153845,
+        "endsec": 220.0576923076923
+      },
+      {
+        "content": "island",
+        "duration": 1.052307692307706,
+        "startsec": 220.0576923076923,
+        "endsec": 221.10999999999999
+      }
+    ],
+    "id": "90",
+    "startsec": 218.82999999999998,
+    "endsec": 221.11,
+    "duration": 2.2800000000000296,
+    "content": "save the island"
+  },
+  {
+    "words": [
+      {
+        "content": "okay",
+        "duration": 0.5759999999999991,
+        "startsec": 219.91,
+        "endsec": 220.486
+      },
+      {
+        "content": "we've",
+        "duration": 0.7199999999999989,
+        "startsec": 220.486,
+        "endsec": 221.206
+      },
+      {
+        "content": "been",
+        "duration": 0.5759999999999991,
+        "startsec": 221.206,
+        "endsec": 221.78199999999998
+      },
+      {
+        "content": "here",
+        "duration": 0.5759999999999991,
+        "startsec": 221.78199999999998,
+        "endsec": 222.35799999999998
+      },
+      {
+        "content": "for",
+        "duration": 0.43199999999999933,
+        "startsec": 222.35799999999998,
+        "endsec": 222.78999999999996
+      },
+      {
+        "content": "hundreds",
+        "duration": 1.1519999999999981,
+        "startsec": 222.78999999999996,
+        "endsec": 223.94199999999995
+      },
+      {
+        "content": "of",
+        "duration": 0.28799999999999953,
+        "startsec": 223.94199999999995,
+        "endsec": 224.22999999999996
+      }
+    ],
+    "id": "91",
+    "startsec": 219.91,
+    "endsec": 224.23,
+    "duration": 4.319999999999993,
+    "content": "okay we've been here for hundreds of"
+  },
+  {
+    "words": [
+      {
+        "content": "years",
+        "duration": 0.885937499999998,
+        "startsec": 221.11,
+        "endsec": 221.99593750000003
+      },
+      {
+        "content": "working",
+        "duration": 1.2403124999999973,
+        "startsec": 221.99593750000003,
+        "endsec": 223.23625
+      },
+      {
+        "content": "today",
+        "duration": 0.885937499999998,
+        "startsec": 223.23625,
+        "endsec": 224.12218750000002
+      },
+      {
+        "content": "and",
+        "duration": 0.5315624999999988,
+        "startsec": 224.12218750000002,
+        "endsec": 224.65375000000003
+      },
+      {
+        "content": "can",
+        "duration": 0.5315624999999988,
+        "startsec": 224.65375000000003,
+        "endsec": 225.18531250000004
+      },
+      {
+        "content": "use",
+        "duration": 0.5315624999999988,
+        "startsec": 225.18531250000004,
+        "endsec": 225.71687500000004
+      },
+      {
+        "content": "unique",
+        "duration": 1.0631249999999977,
+        "startsec": 225.71687500000004,
+        "endsec": 226.78000000000003
+      }
+    ],
+    "id": "92",
+    "startsec": 221.11,
+    "endsec": 226.78,
+    "duration": 5.6699999999999875,
+    "content": "years working today and can use unique"
+  },
+  {
+    "words": [
+      {
+        "content": "place",
+        "duration": 0.8274193548387135,
+        "startsec": 224.23,
+        "endsec": 225.05741935483871
+      },
+      {
+        "content": "and",
+        "duration": 0.4964516129032281,
+        "startsec": 225.05741935483871,
+        "endsec": 225.55387096774194
+      },
+      {
+        "content": "are",
+        "duration": 0.4964516129032281,
+        "startsec": 225.55387096774194,
+        "endsec": 226.05032258064517
+      },
+      {
+        "content": "they",
+        "duration": 0.6619354838709708,
+        "startsec": 226.05032258064517,
+        "endsec": 226.71225806451613
+      },
+      {
+        "content": "should",
+        "duration": 0.9929032258064562,
+        "startsec": 226.71225806451613,
+        "endsec": 227.7051612903226
+      },
+      {
+        "content": "be",
+        "duration": 0.3309677419354854,
+        "startsec": 227.7051612903226,
+        "endsec": 228.0361290322581
+      },
+      {
+        "content": "saving",
+        "duration": 0.9929032258064562,
+        "startsec": 228.0361290322581,
+        "endsec": 229.02903225806455
+      },
+      {
+        "content": "it",
+        "duration": 0.3309677419354854,
+        "startsec": 229.02903225806455,
+        "endsec": 229.36000000000004
+      }
+    ],
+    "id": "93",
+    "startsec": 224.23,
+    "endsec": 229.36,
+    "duration": 5.130000000000024,
+    "content": "place and are they should be saving it"
+  },
+  {
+    "words": [
+      {
+        "content": "can",
+        "duration": 0.5009999999999991,
+        "startsec": 226.78,
+        "endsec": 227.281
+      },
+      {
+        "content": "be",
+        "duration": 0.3339999999999994,
+        "startsec": 227.281,
+        "endsec": 227.615
+      },
+      {
+        "content": "saved",
+        "duration": 0.8349999999999984,
+        "startsec": 227.615,
+        "endsec": 228.45000000000002
+      },
+      {
+        "content": "if",
+        "duration": 0.3339999999999994,
+        "startsec": 228.45000000000002,
+        "endsec": 228.78400000000002
+      },
+      {
+        "content": "there",
+        "duration": 0.8349999999999984,
+        "startsec": 228.78400000000002,
+        "endsec": 229.61900000000003
+      },
+      {
+        "content": "was",
+        "duration": 0.5009999999999991,
+        "startsec": 229.61900000000003,
+        "endsec": 230.12000000000003
+      },
+      {
+        "content": "no",
+        "duration": 0.3339999999999994,
+        "startsec": 230.12000000000003,
+        "endsec": 230.45400000000004
+      },
+      {
+        "content": "possible",
+        "duration": 1.3359999999999976,
+        "startsec": 230.45400000000004,
+        "endsec": 231.79000000000002
+      }
+    ],
+    "id": "94",
+    "startsec": 226.78,
+    "endsec": 231.79,
+    "duration": 5.009999999999991,
+    "content": "can be saved if there was no possible"
+  },
+  {
+    "words": [
+      {
+        "content": "way",
+        "duration": 0.3009374999999981,
+        "startsec": 229.36,
+        "endsec": 229.66093750000002
+      },
+      {
+        "content": "to",
+        "duration": 0.20062499999999872,
+        "startsec": 229.66093750000002,
+        "endsec": 229.86156250000002
+      },
+      {
+        "content": "save",
+        "duration": 0.40124999999999744,
+        "startsec": 229.86156250000002,
+        "endsec": 230.26281250000002
+      },
+      {
+        "content": "10",
+        "duration": 0.20062499999999872,
+        "startsec": 230.26281250000002,
+        "endsec": 230.46343750000003
+      },
+      {
+        "content": "here",
+        "duration": 0.40124999999999744,
+        "startsec": 230.46343750000003,
+        "endsec": 230.86468750000003
+      },
+      {
+        "content": "and",
+        "duration": 0.3009374999999981,
+        "startsec": 230.86468750000003,
+        "endsec": 231.16562500000003
+      },
+      {
+        "content": "the",
+        "duration": 0.3009374999999981,
+        "startsec": 231.16562500000003,
+        "endsec": 231.46656250000004
+      },
+      {
+        "content": "money",
+        "duration": 0.5015624999999968,
+        "startsec": 231.46656250000004,
+        "endsec": 231.96812500000004
+      },
+      {
+        "content": "wasn't",
+        "duration": 0.6018749999999962,
+        "startsec": 231.96812500000004,
+        "endsec": 232.57000000000005
+      }
+    ],
+    "id": "95",
+    "startsec": 229.36,
+    "endsec": 232.57,
+    "duration": 3.2099999999999795,
+    "content": "way to save 10 here and the money wasn't"
+  },
+  {
+    "words": [
+      {
+        "content": "available",
+        "duration": 2.0700000000000216,
+        "startsec": 231.79,
+        "endsec": 233.86
+      }
+    ],
+    "id": "96",
+    "startsec": 231.79,
+    "endsec": 233.86,
+    "duration": 2.0700000000000216,
+    "content": "available"
+  },
+  {
+    "words": [
+      {
+        "content": "you",
+        "duration": 0.3149999999999994,
+        "startsec": 232.57,
+        "endsec": 232.885
+      },
+      {
+        "content": "know",
+        "duration": 0.4199999999999992,
+        "startsec": 232.885,
+        "endsec": 233.30499999999998
+      },
+      {
+        "content": "we've",
+        "duration": 0.524999999999999,
+        "startsec": 233.30499999999998,
+        "endsec": 233.82999999999998
+      },
+      {
+        "content": "been",
+        "duration": 0.4199999999999992,
+        "startsec": 233.82999999999998,
+        "endsec": 234.24999999999997
+      },
+      {
+        "content": "more",
+        "duration": 0.4199999999999992,
+        "startsec": 234.24999999999997,
+        "endsec": 234.66999999999996
+      },
+      {
+        "content": "understandable",
+        "duration": 1.469999999999997,
+        "startsec": 234.66999999999996,
+        "endsec": 236.13999999999996
+      }
+    ],
+    "id": "97",
+    "startsec": 232.57,
+    "endsec": 236.14,
+    "duration": 3.569999999999993,
+    "content": "you know we've been more understandable"
+  },
+  {
+    "words": [
+      {
+        "content": "but",
+        "duration": 0.4921875,
+        "startsec": 233.86,
+        "endsec": 234.3521875
+      },
+      {
+        "content": "the",
+        "duration": 0.4921875,
+        "startsec": 234.3521875,
+        "endsec": 234.844375
+      },
+      {
+        "content": "money",
+        "duration": 0.8203125,
+        "startsec": 234.844375,
+        "endsec": 235.6646875
+      },
+      {
+        "content": "is",
+        "duration": 0.328125,
+        "startsec": 235.6646875,
+        "endsec": 235.9928125
+      },
+      {
+        "content": "available",
+        "duration": 1.4765625,
+        "startsec": 235.9928125,
+        "endsec": 237.469375
+      },
+      {
+        "content": "I'll",
+        "duration": 0.65625,
+        "startsec": 237.469375,
+        "endsec": 238.125625
+      },
+      {
+        "content": "refuse",
+        "duration": 0.984375,
+        "startsec": 238.125625,
+        "endsec": 239.11
+      }
+    ],
+    "id": "98",
+    "startsec": 233.86,
+    "endsec": 239.11,
+    "duration": 5.25,
+    "content": "but the money is available I'll refuse"
+  },
+  {
+    "words": [
+      {
+        "content": "to",
+        "duration": 0.29419354838709694,
+        "startsec": 236.14,
+        "endsec": 236.43419354838707
+      },
+      {
+        "content": "become",
+        "duration": 0.8825806451612908,
+        "startsec": 236.43419354838707,
+        "endsec": 237.31677419354835
+      },
+      {
+        "content": "a",
+        "duration": 0.14709677419354847,
+        "startsec": 237.31677419354835,
+        "endsec": 237.4638709677419
+      },
+      {
+        "content": "climate",
+        "duration": 1.0296774193548393,
+        "startsec": 237.4638709677419,
+        "endsec": 238.49354838709675
+      },
+      {
+        "content": "change",
+        "duration": 0.8825806451612908,
+        "startsec": 238.49354838709675,
+        "endsec": 239.37612903225804
+      },
+      {
+        "content": "Respighi",
+        "duration": 1.1767741935483877,
+        "startsec": 239.37612903225804,
+        "endsec": 240.55290322580643
+      },
+      {
+        "content": "I",
+        "duration": 0.14709677419354847,
+        "startsec": 240.55290322580643,
+        "endsec": 240.7
+      }
+    ],
+    "id": "99",
+    "startsec": 236.14,
+    "endsec": 240.7,
+    "duration": 4.560000000000002,
+    "content": "to become a climate change Respighi I"
+  },
+  {
+    "words": [
+      {
+        "content": "mean",
+        "duration": 0.3018181818181795,
+        "startsec": 239.11,
+        "endsec": 239.4118181818182
+      },
+      {
+        "content": "would",
+        "duration": 0.3772727272727244,
+        "startsec": 239.4118181818182,
+        "endsec": 239.78909090909093
+      },
+      {
+        "content": "we",
+        "duration": 0.15090909090908974,
+        "startsec": 239.78909090909093,
+        "endsec": 239.94000000000003
+      },
+      {
+        "content": "want",
+        "duration": 0.3018181818181795,
+        "startsec": 239.94000000000003,
+        "endsec": 240.24181818181822
+      },
+      {
+        "content": "to",
+        "duration": 0.15090909090908974,
+        "startsec": 240.24181818181822,
+        "endsec": 240.3927272727273
+      },
+      {
+        "content": "do",
+        "duration": 0.15090909090908974,
+        "startsec": 240.3927272727273,
+        "endsec": 240.5436363636364
+      },
+      {
+        "content": "something",
+        "duration": 0.6790909090909037,
+        "startsec": 240.5436363636364,
+        "endsec": 241.22272727272733
+      },
+      {
+        "content": "about",
+        "duration": 0.3772727272727244,
+        "startsec": 241.22272727272733,
+        "endsec": 241.60000000000005
+      }
+    ],
+    "id": "100",
+    "startsec": 239.11,
+    "endsec": 241.6,
+    "duration": 2.4899999999999807,
+    "content": "mean would we want to do something about"
+  },
+  {
+    "words": [
+      {
+        "content": "it",
+        "duration": 3.3000000000000114,
+        "startsec": 240.7,
+        "endsec": 244
+      }
+    ],
+    "id": "101",
+    "startsec": 240.7,
+    "endsec": 244,
+    "duration": 3.3000000000000114,
+    "content": "it"
+  },
+  {
+    "words": [
+      {
+        "content": "as",
+        "duration": 0.3331034482758629,
+        "startsec": 241.6,
+        "endsec": 241.93310344827586
+      },
+      {
+        "content": "of",
+        "duration": 0.3331034482758629,
+        "startsec": 241.93310344827586,
+        "endsec": 242.26620689655172
+      },
+      {
+        "content": "now",
+        "duration": 0.49965517241379437,
+        "startsec": 242.26620689655172,
+        "endsec": 242.7658620689655
+      },
+      {
+        "content": "Congress",
+        "duration": 1.3324137931034516,
+        "startsec": 242.7658620689655,
+        "endsec": 244.09827586206896
+      },
+      {
+        "content": "has",
+        "duration": 0.49965517241379437,
+        "startsec": 244.09827586206896,
+        "endsec": 244.59793103448274
+      },
+      {
+        "content": "not",
+        "duration": 0.49965517241379437,
+        "startsec": 244.59793103448274,
+        "endsec": 245.09758620689652
+      },
+      {
+        "content": "approved",
+        "duration": 1.3324137931034516,
+        "startsec": 245.09758620689652,
+        "endsec": 246.42999999999998
+      }
+    ],
+    "id": "102",
+    "startsec": 241.6,
+    "endsec": 246.43,
+    "duration": 4.8300000000000125,
+    "content": "as of now Congress has not approved"
+  },
+  {
+    "words": [
+      {
+        "content": "funding",
+        "duration": 1.656666666666663,
+        "startsec": 244,
+        "endsec": 245.65666666666667
+      },
+      {
+        "content": "for",
+        "duration": 0.7099999999999984,
+        "startsec": 245.65666666666667,
+        "endsec": 246.36666666666667
+      },
+      {
+        "content": "the",
+        "duration": 0.7099999999999984,
+        "startsec": 246.36666666666667,
+        "endsec": 247.07666666666668
+      },
+      {
+        "content": "sea",
+        "duration": 0.7099999999999984,
+        "startsec": 247.07666666666668,
+        "endsec": 247.7866666666667
+      },
+      {
+        "content": "wall",
+        "duration": 0.9466666666666645,
+        "startsec": 247.7866666666667,
+        "endsec": 248.73333333333335
+      },
+      {
+        "content": "without",
+        "duration": 1.656666666666663,
+        "startsec": 248.73333333333335,
+        "endsec": 250.39000000000001
+      }
+    ],
+    "id": "103",
+    "startsec": 244,
+    "endsec": 250.39,
+    "duration": 6.389999999999986,
+    "content": "funding for the sea wall without"
+  },
+  {
+    "words": [
+      {
+        "content": "110-year",
+        "duration": 1.6412903225806412,
+        "startsec": 246.43,
+        "endsec": 248.07129032258064
+      },
+      {
+        "content": "will",
+        "duration": 0.8206451612903206,
+        "startsec": 248.07129032258064,
+        "endsec": 248.89193548387095
+      },
+      {
+        "content": "run",
+        "duration": 0.6154838709677405,
+        "startsec": 248.89193548387095,
+        "endsec": 249.5074193548387
+      },
+      {
+        "content": "out",
+        "duration": 0.6154838709677405,
+        "startsec": 249.5074193548387,
+        "endsec": 250.12290322580645
+      },
+      {
+        "content": "of",
+        "duration": 0.4103225806451603,
+        "startsec": 250.12290322580645,
+        "endsec": 250.5332258064516
+      },
+      {
+        "content": "time",
+        "duration": 0.8206451612903206,
+        "startsec": 250.5332258064516,
+        "endsec": 251.35387096774193
+      },
+      {
+        "content": "the",
+        "duration": 0.6154838709677405,
+        "startsec": 251.35387096774193,
+        "endsec": 251.96935483870968
+      },
+      {
+        "content": "high",
+        "duration": 0.8206451612903206,
+        "startsec": 251.96935483870968,
+        "endsec": 252.79
+      }
+    ],
+    "id": "104",
+    "startsec": 246.43,
+    "endsec": 252.79,
+    "duration": 6.359999999999985,
+    "content": "110-year will run out of time the high"
+  },
+  {
+    "words": [
+      {
+        "content": "range",
+        "duration": 0.782812500000003,
+        "startsec": 250.39,
+        "endsec": 251.1728125
+      },
+      {
+        "content": "scenario",
+        "duration": 1.2525000000000048,
+        "startsec": 251.1728125,
+        "endsec": 252.4253125
+      },
+      {
+        "content": "abandonment",
+        "duration": 1.7221875000000066,
+        "startsec": 252.4253125,
+        "endsec": 254.1475
+      },
+      {
+        "content": "within",
+        "duration": 0.9393750000000036,
+        "startsec": 254.1475,
+        "endsec": 255.08687500000002
+      },
+      {
+        "content": "25",
+        "duration": 0.3131250000000012,
+        "startsec": 255.08687500000002,
+        "endsec": 255.40000000000003
+      }
+    ],
+    "id": "105",
+    "startsec": 250.39,
+    "endsec": 255.4,
+    "duration": 5.010000000000019,
+    "content": "range scenario abandonment within 25"
+  },
+  {
+    "words": [
+      {
+        "content": "years",
+        "duration": 1.0038461538461536,
+        "startsec": 252.79,
+        "endsec": 253.79384615384615
+      },
+      {
+        "content": "and",
+        "duration": 0.6023076923076922,
+        "startsec": 253.79384615384615,
+        "endsec": 254.39615384615385
+      },
+      {
+        "content": "and",
+        "duration": 0.6023076923076922,
+        "startsec": 254.39615384615385,
+        "endsec": 254.99846153846156
+      },
+      {
+        "content": "that's",
+        "duration": 1.2046153846153844,
+        "startsec": 254.99846153846156,
+        "endsec": 256.20307692307694
+      },
+      {
+        "content": "everybody",
+        "duration": 1.8069230769230764,
+        "startsec": 256.20307692307694,
+        "endsec": 258.01
+      }
+    ],
+    "id": "106",
+    "startsec": 252.79,
+    "endsec": 258.01,
+    "duration": 5.219999999999999,
+    "content": "years and and that's everybody"
+  },
+  {
+    "words": [
+      {
+        "content": "according",
+        "duration": 1.3114285714285698,
+        "startsec": 255.4,
+        "endsec": 256.7114285714286
+      },
+      {
+        "content": "to",
+        "duration": 0.2914285714285711,
+        "startsec": 256.7114285714286,
+        "endsec": 257.0028571428572
+      },
+      {
+        "content": "Dave",
+        "duration": 0.5828571428571422,
+        "startsec": 257.0028571428572,
+        "endsec": 257.58571428571435
+      },
+      {
+        "content": "sheltie",
+        "duration": 1.019999999999999,
+        "startsec": 257.58571428571435,
+        "endsec": 258.6057142857143
+      },
+      {
+        "content": "Tangier",
+        "duration": 1.019999999999999,
+        "startsec": 258.6057142857143,
+        "endsec": 259.6257142857143
+      },
+      {
+        "content": "Island",
+        "duration": 0.8742857142857133,
+        "startsec": 259.6257142857143,
+        "endsec": 260.5
+      }
+    ],
+    "id": "107",
+    "startsec": 255.4,
+    "endsec": 260.5,
+    "duration": 5.099999999999994,
+    "content": "according to Dave sheltie Tangier Island"
+  },
+  {
+    "words": [
+      {
+        "content": "isn't",
+        "duration": 1.0108695652173987,
+        "startsec": 258.01,
+        "endsec": 259.02086956521737
+      },
+      {
+        "content": "an",
+        "duration": 0.40434782608695946,
+        "startsec": 259.02086956521737,
+        "endsec": 259.42521739130433
+      },
+      {
+        "content": "isolated",
+        "duration": 1.6173913043478378,
+        "startsec": 259.42521739130433,
+        "endsec": 261.0426086956522
+      },
+      {
+        "content": "incident",
+        "duration": 1.6173913043478378,
+        "startsec": 261.0426086956522,
+        "endsec": 262.66
+      }
+    ],
+    "id": "108",
+    "startsec": 258.01,
+    "endsec": 262.66,
+    "duration": 4.650000000000034,
+    "content": "isn't an isolated incident"
+  },
+  {
+    "words": [
+      {
+        "content": "it's",
+        "duration": 0.5119999999999967,
+        "startsec": 260.5,
+        "endsec": 261.012
+      },
+      {
+        "content": "a",
+        "duration": 0.12799999999999917,
+        "startsec": 261.012,
+        "endsec": 261.14
+      },
+      {
+        "content": "sign",
+        "duration": 0.5119999999999967,
+        "startsec": 261.14,
+        "endsec": 261.652
+      },
+      {
+        "content": "of",
+        "duration": 0.25599999999999834,
+        "startsec": 261.652,
+        "endsec": 261.90799999999996
+      },
+      {
+        "content": "what's",
+        "duration": 0.767999999999995,
+        "startsec": 261.90799999999996,
+        "endsec": 262.67599999999993
+      },
+      {
+        "content": "to",
+        "duration": 0.25599999999999834,
+        "startsec": 262.67599999999993,
+        "endsec": 262.9319999999999
+      },
+      {
+        "content": "come",
+        "duration": 0.5119999999999967,
+        "startsec": 262.9319999999999,
+        "endsec": 263.4439999999999
+      },
+      {
+        "content": "you",
+        "duration": 0.3839999999999975,
+        "startsec": 263.4439999999999,
+        "endsec": 263.8279999999999
+      },
+      {
+        "content": "know",
+        "duration": 0.5119999999999967,
+        "startsec": 263.8279999999999,
+        "endsec": 264.3399999999999
+      }
+    ],
+    "id": "109",
+    "startsec": 260.5,
+    "endsec": 264.34,
+    "duration": 3.839999999999975,
+    "content": "it's a sign of what's to come you know"
+  },
+  {
+    "words": [
+      {
+        "content": "as",
+        "duration": 0.19499999999999673,
+        "startsec": 262.66,
+        "endsec": 262.855
+      },
+      {
+        "content": "climate",
+        "duration": 0.6824999999999886,
+        "startsec": 262.855,
+        "endsec": 263.5375
+      },
+      {
+        "content": "changes",
+        "duration": 0.6824999999999886,
+        "startsec": 263.5375,
+        "endsec": 264.22
+      },
+      {
+        "content": "impacting",
+        "duration": 0.8774999999999853,
+        "startsec": 264.22,
+        "endsec": 265.0975
+      },
+      {
+        "content": "us",
+        "duration": 0.19499999999999673,
+        "startsec": 265.0975,
+        "endsec": 265.2925
+      },
+      {
+        "content": "we're",
+        "duration": 0.48749999999999183,
+        "startsec": 265.2925,
+        "endsec": 265.78000000000003
+      }
+    ],
+    "id": "110",
+    "startsec": 262.66,
+    "endsec": 265.78,
+    "duration": 3.1199999999999477,
+    "content": "as climate changes impacting us we're"
+  },
+  {
+    "words": [
+      {
+        "content": "gonna",
+        "duration": 0.4588235294117654,
+        "startsec": 264.34,
+        "endsec": 264.7988235294117
+      },
+      {
+        "content": "be",
+        "duration": 0.18352941176470614,
+        "startsec": 264.7988235294117,
+        "endsec": 264.98235294117643
+      },
+      {
+        "content": "making",
+        "duration": 0.5505882352941185,
+        "startsec": 264.98235294117643,
+        "endsec": 265.53294117647056
+      },
+      {
+        "content": "these",
+        "duration": 0.4588235294117654,
+        "startsec": 265.53294117647056,
+        "endsec": 265.9917647058823
+      },
+      {
+        "content": "decisions",
+        "duration": 0.8258823529411777,
+        "startsec": 265.9917647058823,
+        "endsec": 266.81764705882347
+      },
+      {
+        "content": "over",
+        "duration": 0.36705882352941227,
+        "startsec": 266.81764705882347,
+        "endsec": 267.1847058823529
+      },
+      {
+        "content": "and",
+        "duration": 0.27529411764705924,
+        "startsec": 267.1847058823529,
+        "endsec": 267.4599999999999
+      }
+    ],
+    "id": "111",
+    "startsec": 264.34,
+    "endsec": 267.46,
+    "duration": 3.1200000000000045,
+    "content": "gonna be making these decisions over and"
+  },
+  {
+    "words": [
+      {
+        "content": "over",
+        "duration": 0.3600000000000033,
+        "startsec": 265.78,
+        "endsec": 266.14
+      },
+      {
+        "content": "again",
+        "duration": 0.4500000000000041,
+        "startsec": 266.14,
+        "endsec": 266.59
+      },
+      {
+        "content": "all",
+        "duration": 0.27000000000000246,
+        "startsec": 266.59,
+        "endsec": 266.85999999999996
+      },
+      {
+        "content": "over",
+        "duration": 0.3600000000000033,
+        "startsec": 266.85999999999996,
+        "endsec": 267.21999999999997
+      },
+      {
+        "content": "the",
+        "duration": 0.27000000000000246,
+        "startsec": 267.21999999999997,
+        "endsec": 267.48999999999995
+      },
+      {
+        "content": "country",
+        "duration": 0.6300000000000058,
+        "startsec": 267.48999999999995,
+        "endsec": 268.11999999999995
+      },
+      {
+        "content": "you",
+        "duration": 0.27000000000000246,
+        "startsec": 268.11999999999995,
+        "endsec": 268.38999999999993
+      },
+      {
+        "content": "know",
+        "duration": 0.3600000000000033,
+        "startsec": 268.38999999999993,
+        "endsec": 268.74999999999994
+      }
+    ],
+    "id": "112",
+    "startsec": 265.78,
+    "endsec": 268.75,
+    "duration": 2.9700000000000273,
+    "content": "over again all over the country you know"
+  },
+  {
+    "words": [
+      {
+        "content": "who",
+        "duration": 0.7411764705882433,
+        "startsec": 267.46,
+        "endsec": 268.2011764705882
+      },
+      {
+        "content": "are",
+        "duration": 0.7411764705882433,
+        "startsec": 268.2011764705882,
+        "endsec": 268.94235294117647
+      },
+      {
+        "content": "going",
+        "duration": 1.2352941176470722,
+        "startsec": 268.94235294117647,
+        "endsec": 270.17764705882354
+      },
+      {
+        "content": "to",
+        "duration": 0.4941176470588289,
+        "startsec": 270.17764705882354,
+        "endsec": 270.67176470588237
+      },
+      {
+        "content": "move",
+        "duration": 0.9882352941176578,
+        "startsec": 270.67176470588237,
+        "endsec": 271.66
+      }
+    ],
+    "id": "113",
+    "startsec": 267.46,
+    "endsec": 271.66,
+    "duration": 4.2000000000000455,
+    "content": "who are going to move"
+  },
+  {
+    "words": [
+      {
+        "content": "what",
+        "duration": 0.6279999999999972,
+        "startsec": 268.75,
+        "endsec": 269.378
+      },
+      {
+        "content": "are",
+        "duration": 0.470999999999998,
+        "startsec": 269.378,
+        "endsec": 269.849
+      },
+      {
+        "content": "we",
+        "duration": 0.3139999999999986,
+        "startsec": 269.849,
+        "endsec": 270.163
+      },
+      {
+        "content": "going",
+        "duration": 0.7849999999999966,
+        "startsec": 270.163,
+        "endsec": 270.948
+      },
+      {
+        "content": "to",
+        "duration": 0.3139999999999986,
+        "startsec": 270.948,
+        "endsec": 271.262
+      },
+      {
+        "content": "do",
+        "duration": 0.3139999999999986,
+        "startsec": 271.262,
+        "endsec": 271.576
+      },
+      {
+        "content": "as",
+        "duration": 0.3139999999999986,
+        "startsec": 271.576,
+        "endsec": 271.89000000000004
+      },
+      {
+        "content": "a",
+        "duration": 0.1569999999999993,
+        "startsec": 271.89000000000004,
+        "endsec": 272.047
+      },
+      {
+        "content": "scientist",
+        "duration": 1.4129999999999938,
+        "startsec": 272.047,
+        "endsec": 273.46000000000004
+      }
+    ],
+    "id": "114",
+    "startsec": 268.75,
+    "endsec": 273.46,
+    "duration": 4.7099999999999795,
+    "content": "what are we going to do as a scientist"
+  },
+  {
+    "words": [
+      {
+        "content": "you're",
+        "duration": 0.8757999999999925,
+        "startsec": 271.66,
+        "endsec": 272.5358
+      },
+      {
+        "content": "used",
+        "duration": 0.5838666666666616,
+        "startsec": 272.5358,
+        "endsec": 273.11966666666666
+      },
+      {
+        "content": "to",
+        "duration": 0.2919333333333308,
+        "startsec": 273.11966666666666,
+        "endsec": 273.41159999999996
+      },
+      {
+        "content": "hang",
+        "duration": 0.5838666666666616,
+        "startsec": 273.41159999999996,
+        "endsec": 273.99546666666663
+      },
+      {
+        "content": "in",
+        "duration": 0.2919333333333308,
+        "startsec": 273.99546666666663,
+        "endsec": 274.28739999999993
+      },
+      {
+        "content": "average",
+        "duration": 1.0217666666666578,
+        "startsec": 274.28739999999993,
+        "endsec": 275.3091666666666
+      },
+      {
+        "content": "azaan",
+        "duration": 0.729833333333327,
+        "startsec": 275.3091666666666,
+        "endsec": 276.03899999999993
+      }
+    ],
+    "id": "115",
+    "startsec": 271.66,
+    "endsec": 276.039,
+    "duration": 4.378999999999962,
+    "content": "you're used to hang in average azaan"
+  },
+  {
+    "words": [
+      {
+        "content": "things",
+        "duration": 0.8662500000000009,
+        "startsec": 273.46,
+        "endsec": 274.32624999999996
+      },
+      {
+        "content": "and",
+        "duration": 0.4331250000000004,
+        "startsec": 274.32624999999996,
+        "endsec": 274.759375
+      },
+      {
+        "content": "you",
+        "duration": 0.4331250000000004,
+        "startsec": 274.759375,
+        "endsec": 275.1925
+      },
+      {
+        "content": "can",
+        "duration": 0.4331250000000004,
+        "startsec": 275.1925,
+        "endsec": 275.625625
+      },
+      {
+        "content": "say",
+        "duration": 0.4331250000000004,
+        "startsec": 275.625625,
+        "endsec": 276.05875000000003
+      },
+      {
+        "content": "they've",
+        "duration": 1.010625000000001,
+        "startsec": 276.05875000000003,
+        "endsec": 277.06937500000004
+      },
+      {
+        "content": "got",
+        "duration": 0.4331250000000004,
+        "startsec": 277.06937500000004,
+        "endsec": 277.50250000000005
+      },
+      {
+        "content": "25",
+        "duration": 0.2887500000000003,
+        "startsec": 277.50250000000005,
+        "endsec": 277.79125000000005
+      },
+      {
+        "content": "to",
+        "duration": 0.2887500000000003,
+        "startsec": 277.79125000000005,
+        "endsec": 278.08000000000004
+      }
+    ],
+    "id": "116",
+    "startsec": 273.46,
+    "endsec": 278.08,
+    "duration": 4.6200000000000045,
+    "content": "things and you can say they've got 25 to"
+  },
+  {
+    "words": [
+      {
+        "content": "50",
+        "duration": 0.31806666666666766,
+        "startsec": 276.039,
+        "endsec": 276.35706666666664
+      },
+      {
+        "content": "years",
+        "duration": 0.7951666666666691,
+        "startsec": 276.35706666666664,
+        "endsec": 277.1522333333333
+      },
+      {
+        "content": "but",
+        "duration": 0.4771000000000015,
+        "startsec": 277.1522333333333,
+        "endsec": 277.6293333333333
+      },
+      {
+        "content": "then",
+        "duration": 0.6361333333333353,
+        "startsec": 277.6293333333333,
+        "endsec": 278.26546666666667
+      },
+      {
+        "content": "you",
+        "duration": 0.4771000000000015,
+        "startsec": 278.26546666666667,
+        "endsec": 278.7425666666667
+      },
+      {
+        "content": "see",
+        "duration": 0.4771000000000015,
+        "startsec": 278.7425666666667,
+        "endsec": 279.2196666666667
+      },
+      {
+        "content": "houses",
+        "duration": 0.954200000000003,
+        "startsec": 279.2196666666667,
+        "endsec": 280.1738666666667
+      },
+      {
+        "content": "like",
+        "duration": 0.6361333333333353,
+        "startsec": 280.1738666666667,
+        "endsec": 280.81000000000006
+      }
+    ],
+    "id": "117",
+    "startsec": 276.039,
+    "endsec": 280.81,
+    "duration": 4.771000000000015,
+    "content": "50 years but then you see houses like"
+  },
+  {
+    "words": [
+      {
+        "content": "this",
+        "duration": 0.608275862068969,
+        "startsec": 278.08,
+        "endsec": 278.68827586206896
+      },
+      {
+        "content": "and",
+        "duration": 0.4562068965517267,
+        "startsec": 278.68827586206896,
+        "endsec": 279.1444827586207
+      },
+      {
+        "content": "this",
+        "duration": 0.608275862068969,
+        "startsec": 279.1444827586207,
+        "endsec": 279.7527586206897
+      },
+      {
+        "content": "road",
+        "duration": 0.608275862068969,
+        "startsec": 279.7527586206897,
+        "endsec": 280.36103448275867
+      },
+      {
+        "content": "and",
+        "duration": 0.4562068965517267,
+        "startsec": 280.36103448275867,
+        "endsec": 280.8172413793104
+      },
+      {
+        "content": "you",
+        "duration": 0.4562068965517267,
+        "startsec": 280.8172413793104,
+        "endsec": 281.27344827586217
+      },
+      {
+        "content": "know",
+        "duration": 0.608275862068969,
+        "startsec": 281.27344827586217,
+        "endsec": 281.88172413793114
+      },
+      {
+        "content": "this",
+        "duration": 0.608275862068969,
+        "startsec": 281.88172413793114,
+        "endsec": 282.4900000000001
+      }
+    ],
+    "id": "118",
+    "startsec": 278.08,
+    "endsec": 282.49,
+    "duration": 4.410000000000025,
+    "content": "this and this road and you know this"
+  },
+  {
+    "words": [
+      {
+        "content": "needs",
+        "duration": 1.2333333333333327,
+        "startsec": 280.81,
+        "endsec": 282.04333333333335
+      },
+      {
+        "content": "fixed",
+        "duration": 1.2333333333333327,
+        "startsec": 282.04333333333335,
+        "endsec": 283.2766666666667
+      },
+      {
+        "content": "right",
+        "duration": 1.2333333333333327,
+        "startsec": 283.2766666666667,
+        "endsec": 284.51000000000005
+      },
+      {
+        "content": "now",
+        "duration": 0.7399999999999995,
+        "startsec": 284.51000000000005,
+        "endsec": 285.25000000000006
+      }
+    ],
+    "id": "119",
+    "startsec": 280.81,
+    "endsec": 285.25,
+    "duration": 4.439999999999998,
+    "content": "needs fixed right now"
+  },
+  {
+    "words": [
+      {
+        "content": "yeah",
+        "duration": 0.6149999999999949,
+        "startsec": 282.49,
+        "endsec": 283.105
+      },
+      {
+        "content": "when",
+        "duration": 0.6149999999999949,
+        "startsec": 283.105,
+        "endsec": 283.72
+      },
+      {
+        "content": "you",
+        "duration": 0.46124999999999616,
+        "startsec": 283.72,
+        "endsec": 284.18125000000003
+      },
+      {
+        "content": "see",
+        "duration": 0.46124999999999616,
+        "startsec": 284.18125000000003,
+        "endsec": 284.64250000000004
+      },
+      {
+        "content": "fish",
+        "duration": 0.6149999999999949,
+        "startsec": 284.64250000000004,
+        "endsec": 285.25750000000005
+      },
+      {
+        "content": "swimming",
+        "duration": 1.2299999999999898,
+        "startsec": 285.25750000000005,
+        "endsec": 286.48750000000007
+      },
+      {
+        "content": "on",
+        "duration": 0.30749999999999744,
+        "startsec": 286.48750000000007,
+        "endsec": 286.7950000000001
+      },
+      {
+        "content": "your",
+        "duration": 0.6149999999999949,
+        "startsec": 286.7950000000001,
+        "endsec": 287.4100000000001
+      }
+    ],
+    "id": "120",
+    "startsec": 282.49,
+    "endsec": 287.40999999999997,
+    "duration": 4.919999999999959,
+    "content": "yeah when you see fish swimming on your"
+  },
+  {
+    "words": [
+      {
+        "content": "road",
+        "duration": 0.9137500000000003,
+        "startsec": 285.25,
+        "endsec": 286.16375
+      },
+      {
+        "content": "you",
+        "duration": 0.6853125000000002,
+        "startsec": 286.16375,
+        "endsec": 286.8490625
+      },
+      {
+        "content": "got",
+        "duration": 0.6853125000000002,
+        "startsec": 286.8490625,
+        "endsec": 287.534375
+      },
+      {
+        "content": "a",
+        "duration": 0.22843750000000007,
+        "startsec": 287.534375,
+        "endsec": 287.7628125
+      },
+      {
+        "content": "major",
+        "duration": 1.1421875000000004,
+        "startsec": 287.7628125,
+        "endsec": 288.905
+      },
+      {
+        "content": "problem",
+        "duration": 1.5990625000000005,
+        "startsec": 288.905,
+        "endsec": 290.5040625
+      },
+      {
+        "content": "that's",
+        "duration": 1.3706250000000004,
+        "startsec": 290.5040625,
+        "endsec": 291.8746875
+      },
+      {
+        "content": "for",
+        "duration": 0.6853125000000002,
+        "startsec": 291.8746875,
+        "endsec": 292.56
+      }
+    ],
+    "id": "121",
+    "startsec": 285.25,
+    "endsec": 292.56,
+    "duration": 7.310000000000002,
+    "content": "road you got a major problem that's for"
+  }
+]

@@ -143,6 +143,7 @@ video {
   text-decoration: underline;
   text-transform: lowercase;
   font-size: 13px;
+  display: inline-block;
 }
 
 #subtitle p:active {

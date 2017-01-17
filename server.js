@@ -1,6 +1,7 @@
 var title, thumbnail;
 var srt_converted = false;
 var video_number = 0;
+var srtjson
 var operation_number = 0;
 
 var express = require("express");
@@ -72,7 +73,8 @@ function download_video(request, response) {
             var reply = {
                 video_title: title,
                 thumbnail: thumbnail,
-                video_number: video_number
+                video_number: video_number,
+                srtjson: srtjson
             }
             video_number += 1;
             clearInterval(intvl);
@@ -84,10 +86,10 @@ function download_video(request, response) {
 
 function getwordlevelsrt(srtfile){
   var srttojson = require("./srttojson.js").srttojson;
-  var srtjsonraw = srttojson(srtfile); //This will convert the srt file into a JSON object with word level transcription
+  srtjson = srttojson(srtfile); //This will convert the srt file into a JSON object with word level transcription
   //Writing the JSON to a separate file
-  var srtjson = JSON.stringify(srtjsonraw, null, 2);
-  fs.writeFile("wordlevelsrt.json", srtjson);
+  var srtjson_string = JSON.stringify(srtjson, null, 2);
+  fs.writeFile("wordlevelsrt.json", srtjson_string);
 
   //All the SRT related process is complete
   srt_converted = true;

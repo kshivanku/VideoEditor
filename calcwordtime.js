@@ -1,14 +1,10 @@
-console.log("reached for word level transcribing");
-
 function calcwordtime(srtjson){
   var splitfactor = /[\s\r]/;
   for( i = 0 ; i < srtjson.length ; i++){
-    console.log("transcribing for line: " + srtjson[i].content);
     var wordarray = srtjson[i].content.split(splitfactor);
     var startsec = srtjson[i].startsec;
     var totalchars = calcchars(wordarray);
     for ( j = 0 ; j < wordarray.length ; j++){
-      console.log("transcribing for word: " + wordarray[j]);
       var word = new Word;
       word.content = wordarray[j];
       word.duration = (wordarray[j].length / totalchars) * srtjson[i].duration;

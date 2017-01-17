@@ -55,9 +55,7 @@ function gotData(data) {
     new_video.thumbnail = data.thumbnail;
     new_video.subtitle_file = "videos/" + data.video_number + ".srt";
     new_video.video_file = "videos/" + data.video_number + ".mp4";
-
-    //LOAD SUBTITLES AND CUT CLIPS
-    loadStrings(new_video.subtitle_file, cutClips);
+    new_video.clips = data.srtjson;
 
     //PUSH THE NEW VIDEO IN THE VIDEO ARRAY
     videos.push(new_video);
@@ -66,7 +64,6 @@ function gotData(data) {
     new_entry.html(new_video.title);
     new_entry.style("background-image", "url(" + new_video.thumbnail + ")");
     new_entry.mousePressed(show_video);
-
 }
 
 function Video() {
@@ -104,6 +101,8 @@ function show_video() {
     }
 }
 
+
+/*
 function cutClips(data) {
 
     //HAVE TO SAVE THIS BECAUSE END TIME OF PREV CLIP HAS TO BE EDITIED TO START TIME OF THE NEXT
@@ -193,22 +192,6 @@ function calculateEndTime(endtime){
   return totalend;
 }
 
-
-function displaysubs(videoObj) {
-    var clipindex;
-
-    //CLEAR ANY PREVIOUSLY LOADED SUBTITLES
-    $('#subtitle').empty();
-
-    //DISPLAY SUBTITLES FOR THE SELECTED FILE
-    for (i = 0; i < videoObj.clips.length; i++) {
-        clipindex = createP("");
-        clipindex.parent("#subtitle");
-        clipindex.html(videoObj.clips[i].clipcontent);
-        clipindex.mousePressed(saveclip);
-    }
-}
-
 function Clip() {
     this.starttime = "";
     this.endtime = "";
@@ -216,7 +199,42 @@ function Clip() {
     this.clipcontent = "";
     this.sourcevideo = "";
 }
+*/
 
+function displaysubs(videoObj) {
+    var word;
+
+    //CLEAR ANY PREVIOUSLY LOADED SUBTITLES
+    $('#subtitle').empty();
+
+    //DISPLAY SUBTITLES FOR THE SELECTED FILE
+    for (i = 0; i < videoObj.clips.length; i++) {
+      // console.log(videoObj.clips[i]);
+      for (j = 0 ; j < videoObj.clips[i].words.length ; j++){
+        word = createP(" ");
+        word.parent("#subtitle");
+        word.id(videoObj.clips[i].id + "." + j); //Giving a unique ID to each word so that it can be identified when it is clicked upon.
+        word.html(videoObj.clips[i].words[j].content + "\s");
+        word.mousePressed(function(){
+
+
+
+
+          // var clip = videoObj.clips[i].words[j];
+          // clip.source = videoObj.video_file;
+          // selected_clips.push(clip);
+          // console.log(videoObj);
+          // console.log("i = " + i);
+          // console.log(videoObj.clips);
+          // console.log(videoObj.clips[i]);
+          // console.log(wordObj);
+          console.log(this);
+        });
+      }
+    }
+}
+
+/*
 function saveclip() {
     for (i = 0; i < videos.length; i++) {
         for (j = 0; j < videos[i].clips.length; j++) {
@@ -231,6 +249,7 @@ function saveclip() {
         }
     }
 }
+*/
 
 function display_selectedclips() {
     $("#sortable").empty();
@@ -296,6 +315,9 @@ function createPopcornPreview(clipsforpopcorn){
   sequence.play();
 }
 
+
+// THIS METHOD WAS USED BEFORE POPCORN
+/*
 function loadanimation() {
     var player = document.getElementById('mixedvideo');
     var mp4Vid = document.getElementById('mixsource');
@@ -305,7 +327,6 @@ function loadanimation() {
     player.load();
     player.play();
 }
-
 function sendjson(selected_clips) {
     jQuery.ajax({
         type: 'POST',
@@ -318,7 +339,6 @@ function sendjson(selected_clips) {
         }
     });
 }
-
 function loadvideo(data) {
     var player = document.getElementById('mixedvideo');
     var mp4Vid = document.getElementById('mixsource');
@@ -328,7 +348,7 @@ function loadvideo(data) {
     player.load();
     player.play();
 }
-
+*/
 
 
 
